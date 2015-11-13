@@ -39,8 +39,10 @@ Human readable start date  | Start Timestamp (s) | phone1     | phone2    | phon
 2015-11-09 09:42:35.659353 | 1447090955.66       | geo100m   | geo100m   | geo100m | 2015-11-09 18:59:32.085172 | 1447124372.09 | went to state ongoing_trip at around 6pm, (6:03, 6:05 5:49) and never ended trip. Update! Ended trip at 7:30
 2015-11-09 19:18:54.105137 | 1447125534.11       | noma30s | noma30s | noma30s | 2015-11-10 07:30:54.708202 | 1447169454.71 | Still mostly in doze mode. Only 46 and 70 wakeups
 2015-11-10 07:30:54.708202 | 1447169454.71       | noha30s | noha30s | noha30s | 2015-11-10 20:00:12.112079 | 1447214412.11 | Power levels were fairly similar at the end (87%, 83%, 82%)
-2015-11-10 20:10:22.500289 | 1447215022.5        | nohanf  | nohanf  | nohanf  | 
-
+2015-11-10 20:10:22.500289 | 1447215022.5        | nohanf  | nohanf  | nohanf  | 2015-11-11 08:18:37.860248 | 1447258717.86 | Power levels low (warning) (9%, 9%, 9%)
+2015-11-11 19:25:15.846526 | 1447298715.85       | nomanf  | nomanf  | nomanf  | 2015-11-12 08:18:24.066606 | 1447345104.07 | Starting at 100% after recharging
+2015-11-12 08:18:24.066606 | 1447345104.07       | nd      | nd      | nd      | 2015-11-12 20:13:29.217236 | 1447388009.22 | Repeat without being connected to local WiFi
+2015-11-12 20:59:58.726268 | 1447390798.73       | geo100m | geo100m | geo100m | | Repeat without being connected to local WiFi
 
 ## iOS
 ### Passive regimes
