@@ -1,4 +1,4 @@
-regime,drain,duration
+regime,stat,drain,duration
 noma30s,drop_gauge,0.67,1h30m01s
 noma30s,drop_gauge,0.29,3h30m00s
 noma30s,drop_gauge,0.27,3h40m00s
@@ -45,3 +45,12 @@ nohanf,app_computed_drain,6.11,12h17m59s
 nohanf,app_location_service_launches,43618,12h17m59s
 nohanf,activity_change_service_launches,20,12h17m59s
 nohanf,sync_service_launches,6,12h17m59s
+nomanf,drop_gauge,0.75,1h20m01s
+nomanf,drop_gauge,0.27,3h40m00s
+nomanf,drop_gauge,0.29,3h30m00s
+nomanf,drop_gauge,0.27,3h40m00s
+nomanf,drop_overall,0.31,12h52m15s
+nomanf,app_computed_drain,0.33,12h17m59s
+nomanf,app_location_service_launches,137,12h17m59s
+nomanf,activity_change_service_launches,79,12h17m59s
+nomanf,sync_service_launches,6,12h17m59s

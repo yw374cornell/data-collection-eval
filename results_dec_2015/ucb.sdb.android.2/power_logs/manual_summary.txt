@@ -43,3 +43,12 @@ nohanf,app_computed_drain,6.11,12h17m53s
 nohanf,app_location_service_launches,43581,12h17m53s
 nohanf,activity_change_service_launches,14,12h17m53s
 nohanf,sync_service_launches,5,12h17m53s
+nomanf,drop_gauge,0.55,1h50m01s
+nomanf,drop_gauge,0.25,4h00m00s
+nomanf,drop_gauge,0.30,3h20m00s
+nomanf,drop_gauge,3.28,3h38m10s
+nomanf,drop_overall,0.23,12h52m15s
+nomanf,app_computed_drain,0.39,12h52m15s
+nomanf,app_location_service_launches,142,12h52m15s
+nomanf,activity_change_service_launches,77,12h52m15s
+nomanf,sync_service_launches,6,12h52m15s
