@@ -33,8 +33,10 @@ periods of no data collection.
 4. geofence 5m, selected accuracy-time filter (geo5m-satf)
 
 ### Timeline
+
+
 Human readable start date  | Start Timestamp (s) | phone1     | phone2    | phone3 | Human readable end date | End Timestamp (s)  | Notes
--------------------------- | ------------------  | ---------- | --------- | -----------| ----------------------- | ----------------- 
+-------------------------- | ------------------  | ---------- | --------- | -----------| ----------------------- | ----------------- | ------
 2015-11-08 18:09:20.739536 | 1447034960.74       | nd        | nd        | nd      | 2015-11-09 09:04:08.971723 | 1447088648.97 |
 2015-11-09 09:42:35.659353 | 1447090955.66       | geo100m   | geo100m   | geo100m | 2015-11-09 18:59:32.085172 | 1447124372.09 | went to state ongoing_trip at around 6pm, (6:03, 6:05 5:49) and never ended trip. Update! Ended trip at 7:30
 2015-11-09 19:18:54.105137 | 1447125534.11       | noma30s | noma30s | noma30s | 2015-11-10 07:30:54.708202 | 1447169454.71 | Still mostly in doze mode. Only 46 and 70 wakeups
@@ -49,6 +51,7 @@ Human readable start date  | Start Timestamp (s) | phone1     | phone2    | phon
 2015-11-24 23:14:30.548574 | 1448435670.55       | nohanf | nohanf | nohanf | 2015-11-25 07:18:52.145377 1448464732.15 | Retry the most surprising result
 2015-11-25 09:11:39.169554 | 1448435670.55       | noha30s | geo100m-ma30s  | nd | 2015-11-25 20:09:48.206494 | 1448510988.21 | Active testing starts
 2015-11-25 20:09:48.206494 | 1448510988.21       | noha30s | geo100m-ma30s  | nd | 2015-11-26 09:09:51.680674 | 1448557791.68 | Back to stationary at night
+
 
 ## iOS
 ### Passive regimes
@@ -78,8 +81,9 @@ Human readable start date  | Start Timestamp (s) | phone1     | phone2    | phon
 
 
 ### Timeline
+
 Human readable start date  | Start Timestamp (s) | phone1     | phone2    | phone3 | Human readable end date | End Timestamp (s)  | Notes
--------------------------- | ------------------  | ---------- | --------- | -----------| ----------------------- | ----------------- 
+-------------------------- | ------------------  | ---------- | --------- | -----------| ----------------------- | ----------------- | -----
 2015-11-24 16:05:07.015886 | 1448410148.41 | geo100m-ma100m | nd          | nd        | 2015-11-24 22:20:34.012595 | 1448432434.01 | on the way back from berkeley
 2015-11-24 23:14:30.548574 | 1448435670.55 | geo100m-ma100m | noma100m    | nd        | 2015-11-25 07:05:33.057023 | 1448463933.06 | when phones were stationary
 2015-11-25 07:31:06.475876 | 1448465466.48 | geo100m-ma100m | noha100m    | nd        | 2015-11-25 20:09:48.206494 | 1448510988.21 | when phones are in motion
