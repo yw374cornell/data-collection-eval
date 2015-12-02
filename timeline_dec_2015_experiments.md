@@ -49,6 +49,12 @@ Human readable start date  | Start Timestamp (s) | phone1     | phone2    | phon
 2015-11-24 23:14:30.548574 | 1448435670.55       | nohanf | nohanf | nohanf | 2015-11-25 07:18:52.145377 1448464732.15 | Retry the most surprising result
 2015-11-25 09:11:39.169554 | 1448435670.55       | noha30s | geo100m-ma30s  | nd | 2015-11-25 20:09:48.206494 | 1448510988.21 | Active testing starts
 2015-11-25 20:09:48.206494 | 1448510988.21       | noha30s | geo100m-ma30s  | nd | 2015-11-26 09:09:51.680674 | 1448557791.68 | Back to stationary at night
+2015-11-27 08:12:42.725766 | 1448640762.73       | force-gps-30s | geo100m-ma30s | nd | 2015-11-27 20:00:00 | 1448688775.56 | Forcing the use of GPS versus the fused API, active regime
+2015-11-27 20:00:00 | 1448683200.73       | force-gps-30s | geo100m-ma30s | nd | 2015-11-28 08:22:20.406719 | 1448727740.41 | Forcing the use of GPS versus the fused API, passive regime
+2015-11-28 08:22:20.406719 | 1448727740.41 | force-gps-30s | geo100m-ma30s | nd | 2015-11-28 14:46:23.013716 | 1448750783.01 | Evaluating accuracy on a bike ride
+2015-11-28 14:46:23.013716 | 1448750783.01 | force-gps-30s | geo100m-ma30s | geo50m-ha10s | 2015-11-29 07:57:20.395805 | 1448812640.41 | Evaluating accuracy on different geofences, accuracies and frequencies
+2015-11-30 12:38:28.413130 | 1448915908.41 | geo100m-ma30s | geo100m-ma30s | noma30s | 2015-12-01 15:36:47.295005 | 1449013007.3 | Checking geofence triggers
+2015-12-01 15:36:47.295005 | 1449013007.3 | geo100m-ma30s | geo100m-ma30s | noma30s | 2015-12-01 15:36:47.295005 | 1449013007.3 | Checking geofence triggers after resetting battery stats
 
 ## iOS
 ### Passive regimes
@@ -84,3 +90,9 @@ Human readable start date  | Start Timestamp (s) | phone1     | phone2    | phon
 2015-11-24 23:14:30.548574 | 1448435670.55 | geo100m-ma100m | noma100m    | nd        | 2015-11-25 07:05:33.057023 | 1448463933.06 | when phones were stationary
 2015-11-25 07:31:06.475876 | 1448465466.48 | geo100m-ma100m | noha100m    | nd        | 2015-11-25 20:09:48.206494 | 1448510988.21 | when phones are in motion
 2015-11-25 20:09:48.206494 | 1448510988.21 | geo100m-ma100m | noha100m    | nd        | 2015-11-26 07:32:06.829330 | 1448551926.83 | when phones are stationary
+2015-11-25 20:09:48.206494 | 1448510988.21 | geo100m-ma100m | noha100m    | nd        | 2015-11-26 07:32:06.829330 | 1448551926.83 | when phones are stationary
+2015-11-27 10:00:00.407475 | 1448647200.00 | geo100m-ma100m | various    | nd        | 2015-11-27 20:13:07.443489 | 1448683987.44 | experimenting with using visits for data collection. ended up cleaning up the state machine instead
+2015-11-27 22:01:04.668537 | 1448690464.67 | geo100m-ma100m | geo50m-ma100m | geo5m-ma100m | 2015-11-28 08:07:42.415973 | 1448726862.42 | looking at the power drain of various geofence regimes
+2015-11-28 08:07:42.415973 | 1448726862.42 | geo100m-ma100m | geo50m-ma100m | geo5m-ma100m | 2015-11-28 14:45:31.512758 | 1448750731.51 | looking at the accuracy of various geofence regimes
+2015-11-28 14:46:23.013716 | 1448750731.01 | geo100m-ma100m | geo50m-a10m-d50m | geo5m-ha5m | 2015-11-29 07:57:20.395805 | 1448812640.42 | looking at the accuracy of various geofence, accuracy and distance filter metrics
+2015-11-30 12:38:28.413130 | 1448915908.41 | noma100m | geo100m-ma100m | geo100m-ma100m | 2015-12-01 12:38:28-08:00 | 1449002308 | checking geofence triggers
