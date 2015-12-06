@@ -57,7 +57,10 @@ Human readable start date  | Start Timestamp (s) | phone1     | phone2    | phon
 2015-11-28 14:46:23.013716 | 1448750783.01 | force-gps-30s | geo100m-ma30s | geo50m-ha10s | 2015-11-29 07:57:20.395805 | 1448812640.41 | Evaluating accuracy on different geofences, accuracies and frequencies
 2015-11-30 12:38:28.413130 | 1448915908.41 | geo100m-ma30s | geo100m-ma30s | noma30s | 2015-12-01 15:36:47.295005 | 1449013007.3 | Checking geofence triggers
 2015-12-01 15:36:47.295005 | 1449013007.3 | geo100m-ma30s | geo100m-ma30s | noma30s | 2015-12-01 15:36:47.295005 | 1449013007.3 | Checking geofence triggers after resetting battery stats
-
+2015-12-02 13:03:38.181102 | 1449090218.18| noha2s | geo5m-ha2s | geo100m-ha2s | 1449162000 | checking geofence triggers with higher accuracy so that we have fewer zigzags and can check better for proper turn on. baseline is ongoing high accuracy 2 seconds, don't trust battery numbers
+2015-12-03T12:20:00-08:00 | 1449174000 | noha2s | geo5m-ha2s | geo100m-ha2s | 2015-12-03 23:05:42.949634 | 1449212742.95 | restarting with fully charged battery
+2015-12-04T06:50:00-08:00 | 1449240600 | noha2s | noma2s | noma30s | 2015-12-05 07:03:22.209434 | 1449327802.21| what is more expensive, accuracy or interval? leave Berkeley at around 5pm, so from 1449276514.19 to 1449286741.29
+2015-12-05 11:40:21.210345 | 1449344421.21 | nd | noha2s | geo100m-ha2s |  | high accuracy, fast sampling comparison
 
 ## iOS
 ### Passive regimes
@@ -100,3 +103,7 @@ Human readable start date  | Start Timestamp (s) | phone1     | phone2    | phon
 2015-11-28 08:07:42.415973 | 1448726862.42 | geo100m-ma100m | geo50m-ma100m | geo5m-ma100m | 2015-11-28 14:45:31.512758 | 1448750731.51 | looking at the accuracy of various geofence regimes
 2015-11-28 14:46:23.013716 | 1448750731.01 | geo100m-ma100m | geo50m-a10m-d50m | geo5m-ha5m | 2015-11-29 07:57:20.395805 | 1448812640.42 | looking at the accuracy of various geofence, accuracy and distance filter metrics
 2015-11-30 12:38:28.413130 | 1448915908.41 | noma100m | geo100m-ma100m | geo100m-ma100m | 2015-12-01 12:38:28-08:00 | 1449002308 | checking geofence triggers
+2015-12-02 13:03:38.181102 | 1449090218.18 | noha5m | geo5m-ha5m | geo100m-ha5m | 2015-12-03 09:00:00-08:00 | 1449162000 | checking geofence triggers with higher accuracy so that we have fewer zigzags and can check better for proper turn on. baseline is ongoing high accuracy 5 meters, iphones plugged in, so don't trust battery numbers
+2015-12-03T12:20:00-08:00 | 1449174000 | noha5m | geo5m-ha5m | geo100m-ha5m | | restarting with fully charged battery and iphone code fixes
+2015-12-04T06:50:00-08:00 | 1449240600 | noha5m | noma5m | noma50m | 2015-12-05 07:03:22.209434 | 1449327802.21 | what is more expensive, accuracy or interval? leave Berkeley at around 5pm, so from 1449276514.19 to 1449286741.29
+2015-12-05 11:40:21.210345 | 1449344421.21 | nd | noha5m | geo100m-ha5m |  | high accuracy, fast sampling comparison, returned from Ava's at 4pm. to madras cafe and grocery return trip from 1449378325.67 to 1449379349.33
