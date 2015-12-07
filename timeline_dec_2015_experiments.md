@@ -61,6 +61,7 @@ Human readable start date  | Start Timestamp (s) | phone1     | phone2    | phon
 2015-12-03T12:20:00-08:00 | 1449174000 | noha2s | geo5m-ha2s | geo100m-ha2s | 2015-12-03 23:05:42.949634 | 1449212742.95 | restarting with fully charged battery
 2015-12-04T06:50:00-08:00 | 1449240600 | noha2s | noma2s | noma30s | 2015-12-05 07:03:22.209434 | 1449327802.21| what is more expensive, accuracy or interval? leave Berkeley at around 5pm, so from 1449276514.19 to 1449286741.29
 2015-12-05 11:40:21.210345 | 1449344421.21 | nd | noha2s | geo100m-ha2s | 2015-12-06 12:01:06.293039 | 1449432066.29 | high accuracy, fast sampling comparison
+2015-12-06 18:24:12.847799 | 1449455052.85 | nd | noma2s | geo100m-ma2s | | medium accuracy, fast sampling comparison
 
 ## iOS
 ### Passive regimes
@@ -107,3 +108,4 @@ Human readable start date  | Start Timestamp (s) | phone1     | phone2    | phon
 2015-12-03T12:20:00-08:00 | 1449174000 | noha5m | geo5m-ha5m | geo100m-ha5m | | restarting with fully charged battery and iphone code fixes
 2015-12-04T06:50:00-08:00 | 1449240600 | noha5m | noma5m | noma50m | 2015-12-05 07:03:22.209434 | 1449327802.21 | what is more expensive, accuracy or interval? leave Berkeley at around 5pm, so from 1449276514.19 to 1449286741.29
 2015-12-05 11:40:21.210345 | 1449344421.21 | nd | noha5m | geo100m-ha5m | 2015-12-06 12:01:06.293039 | 1449432066.29 | high accuracy, fast sampling comparison, returned from Ava's at 4pm. to madras cafe and grocery return trip from 1449378325.67 to 1449379349.33
+2015-12-06 18:24:12.847799 | 1449455052.85 | nd | noma5m | geo100m-ma5m | | medium accuracy, fast sampling comparison
