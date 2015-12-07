@@ -1,5 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import random
+import logging
 
 def secs_to_hour(secs):
     return secs/(60 * 60)
@@ -18,7 +20,8 @@ def get_ground_truth_df(drain_df, transitions):
 
 def get_rate_df(drain_df):
     diff_df = drain_df[["ts","value"]].diff()
-    return diff_df[diff_df.value < 0].apply(lambda(arr): arr[1]/(arr[0]/(60 * 60)), axis=1)
+    # logging.debug("diff_df = %s" % diff_df)
+    return diff_df[diff_df.value <= 0].apply(lambda(arr): arr[1]/(arr[0]/(60 * 60)), axis=1)
 
 def display_overall_drain(drain_df_map, regime_map):
     drain_df_keys = sorted(drain_df_map.keys())
@@ -39,8 +42,12 @@ def get_state_diff_df(drain_df, ground_truth_df):
         # print row.start_fmt_time, row.end_fmt_time
         # print row.state, drain_df[(drain_df.ts >= row.start_ts) & (drain_df.ts <= row.end_ts)]
         curr_state_drain_df = drain_df[(drain_df.ts >= row.start_ts) & (drain_df.ts <= row.end_ts)]
-        curr_state_diff_df = curr_state_drain_df[["ts","value"]].diff()
-        state_diff_df_map[row.state] = state_diff_df_map[row.state].append(curr_state_diff_df[curr_state_diff_df.value < 0].apply(lambda(arr): arr[1]/secs_to_hour(arr[0]), axis=1))
+        # logging.debug("curr_state_drain_df = %s" % curr_state_drain_df)
+        curr_rate_df = get_rate_df(curr_state_drain_df)
+        # logging.debug("rate_df = %s" % curr_rate_df)
+        # logging.debug("About to merge %s and %s" % (state_diff_df_map[row.state].head(), curr_rate_df.head()))
+        state_diff_df_map[row.state] = state_diff_df_map[row.state].append(curr_rate_df)
+        # logging.debug("After merge, %s" % state_diff_df_map[row.state].head())
     state_diff_df = pd.DataFrame({"state": ["moving"] * len(state_diff_df_map["moving"]), "rate": state_diff_df_map["moving"]}).append(
                     pd.DataFrame({"state": ["active"] * len(state_diff_df_map["active"]), "rate": state_diff_df_map["active"]})).append(
                     pd.DataFrame({"state": ["passive"] * len(state_diff_df_map["passive"]), "rate": state_diff_df_map["passive"]}))
@@ -92,5 +99,5 @@ def display_drain_over_day(drain_df_map, ground_truth_df, regime_map):
         for idx, row in ground_truth_df.iterrows():
             print "adding annotations for %s, %s, %s" % (idx, row.start_fmt_time, row.end_fmt_time)
             ax.axvspan(xmin=row.start_fmt_time, xmax=row.end_fmt_time, color=get_state_color(row.state), alpha=0.2, label=row.state)
-            ax.annotate(row.state, xy=(row.start_fmt_time, 50), xycoords='data', fontsize=10, color=get_state_color(row.state))
+            ax.annotate(row.state, xy=(row.start_fmt_time, random.randint(25,75)), xycoords='data', fontsize=10, color=get_state_color(row.state))
     return (fig, axes)
