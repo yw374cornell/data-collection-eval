@@ -4,7 +4,10 @@ import random
 import logging
 
 def secs_to_hour(secs):
-    return secs/(60 * 60)
+    return float(secs)/(60 * 60)
+
+def mins_to_hour(mins):
+    return float(mins)/60
 
 def get_ground_truth_df(drain_df, transitions):
     """
@@ -57,11 +60,12 @@ def display_per_state_drain(drain_df_map, ground_truth_df, regime_map):
     drain_df_keys = sorted(drain_df_map.keys())
     fig, axes = plt.subplots(nrows=1, ncols=len(drain_df_keys), figsize=(15,3), sharey=True)
     for i, key in enumerate(drain_df_keys):
-        print "displaying %d" % i
+        print "displaying %d, %s (%s)" % (i, key, regime_map[key])
         drain_df = drain_df_map[key]
         state_diff_df = get_state_diff_df(drain_df, ground_truth_df)
         state_diff_df.boxplot(column='rate', by='state', ax=axes[i], grid=True)
         axes[i].set_title("%s (%s)" % (key, regime_map[key]))
+        # print state_diff_df.groupby('state').rate.describe()
 
     for ax in axes:
         ax.minorticks_on()
@@ -85,7 +89,7 @@ def get_state_color(state):
         return "green"
 
 def display_drain_over_day(drain_df_map, ground_truth_df, regime_map):
-    fig, axes = plt.subplots(nrows=1, ncols=2, figsize=(15,3))
+    fig, axes = plt.subplots(nrows=1, ncols=2, figsize=(15,3), sharey=True)
     axes[0].set_title("android")
     axes[1].set_title("iOS")
 
@@ -96,8 +100,74 @@ def display_drain_over_day(drain_df_map, ground_truth_df, regime_map):
             drain_df_map[key].plot(x="fmt_time", y="value", label=regime_map[key], ax=axes[1])
 
     for ax in axes:
+        drain_legend = ax.legend(loc=0)
+        span_map = {}
         for idx, row in ground_truth_df.iterrows():
             print "adding annotations for %s, %s, %s" % (idx, row.start_fmt_time, row.end_fmt_time)
-            ax.axvspan(xmin=row.start_fmt_time, xmax=row.end_fmt_time, color=get_state_color(row.state), alpha=0.2, label=row.state)
-            ax.annotate(row.state, xy=(row.start_fmt_time, random.randint(25,75)), xycoords='data', fontsize=10, color=get_state_color(row.state))
-    return (fig, axes)
+            span_map[row.state] = ax.axvspan(xmin=row.start_fmt_time, xmax=row.end_fmt_time, color=get_state_color(row.state), alpha=0.2, label=row.state)
+            ax.legend(span_map.values(), span_map.keys(), bbox_to_anchor=(0., -0.45, 1., 1.5), loc=0, mode='expand', ncol=3)
+            ax.add_artist(drain_legend)
+    return (fig,axes)
+
+def code_to_state(tier1_code):
+    if tier1_code == 1:
+        return "passive"
+    else:
+        if tier1_code == 18:
+            return "moving"
+        else:
+            return "active"
+
+def get_power_drain_for_regime(user_df, regime_model):
+    with_power_df = user_df.merge(regime_model, on='state')
+    # logging.debug("After merging, df = %s" % with_power_df)
+    with_power_df["power"] = with_power_df.apply(lambda(arr): mins_to_hour(arr[5]) * arr[9], axis=1)
+    return with_power_df.power.sum()
+
+def get_regime_model(overall_model, regime):
+    regime_model = overall_model[["state", regime]]
+    regime_model.columns = ["state", "drain_rate"]
+    # logging.debug("For regime %s, returning model %s" % (regime, regime_model))
+    return regime_model
+
+def get_power_drain_for_regimes(user_df, overall_model):
+    power_drain_for_regimes = {}
+    # First, figure out the time in each state
+    user_df["state"] = user_df.TUTIER1CODE.map(lambda(c): code_to_state(c))
+
+    # First get predicted power drain for no data collection
+    power_drain_for_regimes["nd"] = get_power_drain_for_regime(user_df,
+                                        get_regime_model(overall_model, "nd"))
+
+    active_collection_regimes = ["nohafs", "nomafs", "nomass"]
+
+    # Next, get predicted power drain for no geofenced collection
+    for regime in active_collection_regimes:
+        power_drain_for_regimes[regime] = get_power_drain_for_regime(user_df,
+                                        get_regime_model(overall_model, regime))
+
+    # Finally, get geofenced power drain with various regimes
+    for regime in active_collection_regimes:
+        # Combine geofencing with the specified regimes
+        grm = get_regime_model(overall_model, "geofenced")
+        label = "geo-%s" % regime.replace("no", "")
+        moving_index = grm[grm.state == "moving"].index
+        rrm = get_regime_model(overall_model, regime)
+        # logging.debug("Before setting moving value, %s" % grm)
+        grm.loc[moving_index, "drain_rate"] = rrm[rrm.state == "moving"].drain_rate
+        # logging.debug("After setting moving value, %s" % grm)
+        power_drain_for_regimes[label] = get_power_drain_for_regime(user_df, grm)
+
+    # print "Returning power data %s " % power_drain_for_regimes
+    return power_drain_for_regimes
+
+def get_predicted_power_drain_df(atus_data_df, sel_user_list, power_drain_model):
+    power_drain_dicts = []
+    for user in sel_user_list:
+        user_df = atus_data_df[atus_data_df.TUCASEID == user]
+        power_drain_dict = get_power_drain_for_regimes(user_df, power_drain_model)
+        # print power_drain_dict
+        power_drain_dicts.append(power_drain_dict)
+    power_drain_df = pd.DataFrame(power_drain_dicts)
+    return power_drain_df
+
