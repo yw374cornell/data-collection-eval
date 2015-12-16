@@ -89,15 +89,19 @@ def get_state_color(state):
         return "green"
 
 def display_drain_over_day(drain_df_map, ground_truth_df, regime_map):
-    fig, axes = plt.subplots(nrows=1, ncols=2, figsize=(15,3), sharey=True)
+    fig, axes = plt.subplots(nrows=1, ncols=2, figsize=(15,4), sharey=True)
     axes[0].set_title("android")
     axes[1].set_title("iOS")
+    axes[0].set_ylabel("battery level")
+
+    axes[0].set_ylim(bottom=0, top=100)
+    axes[1].set_ylim(bottom=0, top=100)
 
     for i, key in enumerate(sorted(drain_df_map.keys())):
         if "android" in key:
-            drain_df_map[key].plot(x="fmt_time", y="value", label=regime_map[key], ax=axes[0])
+            drain_df_map[key].plot(x="fmt_time", y="value", label=regime_map[key], ax=axes[0], grid='on', yticks=range(0,100,10))
         else:
-            drain_df_map[key].plot(x="fmt_time", y="value", label=regime_map[key], ax=axes[1])
+            drain_df_map[key].plot(x="fmt_time", y="value", label=regime_map[key], ax=axes[1], grid='on', yticks=range(0,100,10))
 
     for ax in axes:
         drain_legend = ax.legend(loc=0)
