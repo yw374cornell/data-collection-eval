@@ -1,0 +1,4950 @@
+[
+    {
+        "data": {
+            "curr_state": 3, 
+            "transition": 7, 
+            "local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 19, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 0
+            }, 
+            "ts": 1467270019.078863, 
+            "fmt_time": "2016-06-30T00:00:19.078863-07:00"
+        }, 
+        "_id": {
+            "$oid": "5774c385fe930a83ace7d1fe"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T00:00:19.078863-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467270019.078863, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 19, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 0
+            }, 
+            "key": "statemachine/transition", 
+            "read_ts": 1467273608.139479, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "fmt_time": "2016-06-30T00:00:19.093839-07:00", 
+            "local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 19, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 0
+            }, 
+            "ts": 1467270019.093839, 
+            "battery_status": 1, 
+            "battery_level_pct": 100
+        }, 
+        "_id": {
+            "$oid": "5774c385fe930a83ace7d1ff"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T00:00:19.093839-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467270019.093839, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 19, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 0
+            }, 
+            "key": "background/battery", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "curr_state": 3, 
+            "transition": 16, 
+            "local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 23, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 0
+            }, 
+            "ts": 1467270023.050194, 
+            "fmt_time": "2016-06-30T00:00:23.050194-07:00"
+        }, 
+        "_id": {
+            "$oid": "5774cb67fe930a83ace7daab"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T00:00:23.050194-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467270023.050194, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 23, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 0
+            }, 
+            "key": "statemachine/transition", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "fmt_time": "2016-06-30T00:00:23.069163-07:00", 
+            "local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 23, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 0
+            }, 
+            "ts": 1467270023.069163, 
+            "battery_status": 1, 
+            "battery_level_pct": 100
+        }, 
+        "_id": {
+            "$oid": "5774cb67fe930a83ace7daac"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T00:00:23.069163-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467270023.069163, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 23, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 0
+            }, 
+            "key": "background/battery", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "confidence": 100, 
+            "cycling": false, 
+            "fmt_time": "2016-06-30T00:02:36.364043-07:00", 
+            "unknown": false, 
+            "ts": 1467270156.364043, 
+            "walking": false, 
+            "confidence_level": "high", 
+            "running": false, 
+            "local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 36, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 2
+            }, 
+            "type": 9, 
+            "automotive": false, 
+            "stationary": false
+        }, 
+        "_id": {
+            "$oid": "5774cb67fe930a83ace7dab0"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T00:02:36.364043-07:00", 
+            "plugin": null, 
+            "write_ts": 1467270156.364043, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 36, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 2
+            }, 
+            "key": "background/motion_activity", 
+            "read_ts": 0, 
+            "type": "sensor-data"
+        }
+    }, 
+    {
+        "data": {
+            "confidence": 100, 
+            "cycling": false, 
+            "fmt_time": "2016-06-30T00:02:40.763734-07:00", 
+            "unknown": false, 
+            "ts": 1467270160.763734, 
+            "walking": false, 
+            "confidence_level": "high", 
+            "running": false, 
+            "local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 40, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 2
+            }, 
+            "type": 3, 
+            "automotive": false, 
+            "stationary": true
+        }, 
+        "_id": {
+            "$oid": "5774cb67fe930a83ace7dab1"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T00:02:40.763734-07:00", 
+            "plugin": null, 
+            "write_ts": 1467270160.763734, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 40, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 2
+            }, 
+            "key": "background/motion_activity", 
+            "read_ts": 0, 
+            "type": "sensor-data"
+        }
+    }, 
+    {
+        "data": {
+            "confidence": 100, 
+            "cycling": false, 
+            "fmt_time": "2016-06-30T00:04:24.785706-07:00", 
+            "unknown": false, 
+            "ts": 1467270264.785706, 
+            "walking": false, 
+            "confidence_level": "high", 
+            "running": false, 
+            "local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 24, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 4
+            }, 
+            "type": 9, 
+            "automotive": false, 
+            "stationary": false
+        }, 
+        "_id": {
+            "$oid": "5774cb67fe930a83ace7dab2"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T00:04:24.785706-07:00", 
+            "plugin": null, 
+            "write_ts": 1467270264.785706, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 24, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 4
+            }, 
+            "key": "background/motion_activity", 
+            "read_ts": 0, 
+            "type": "sensor-data"
+        }
+    }, 
+    {
+        "data": {
+            "confidence": 100, 
+            "cycling": false, 
+            "fmt_time": "2016-06-30T00:04:29.499121-07:00", 
+            "unknown": false, 
+            "ts": 1467270269.499121, 
+            "walking": false, 
+            "confidence_level": "high", 
+            "running": false, 
+            "local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 29, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 4
+            }, 
+            "type": 3, 
+            "automotive": false, 
+            "stationary": true
+        }, 
+        "_id": {
+            "$oid": "5774cb67fe930a83ace7dab3"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T00:04:29.499121-07:00", 
+            "plugin": null, 
+            "write_ts": 1467270269.499121, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 29, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 4
+            }, 
+            "key": "background/motion_activity", 
+            "read_ts": 0, 
+            "type": "sensor-data"
+        }
+    }, 
+    {
+        "data": {
+            "confidence": 100, 
+            "cycling": false, 
+            "fmt_time": "2016-06-30T00:05:05.008704-07:00", 
+            "unknown": false, 
+            "ts": 1467270305.008704, 
+            "walking": false, 
+            "confidence_level": "high", 
+            "running": false, 
+            "local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 5, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 5
+            }, 
+            "type": 9, 
+            "automotive": false, 
+            "stationary": false
+        }, 
+        "_id": {
+            "$oid": "5774cb67fe930a83ace7dab4"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T00:05:05.008704-07:00", 
+            "plugin": null, 
+            "write_ts": 1467270305.008704, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 5, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 5
+            }, 
+            "key": "background/motion_activity", 
+            "read_ts": 0, 
+            "type": "sensor-data"
+        }
+    }, 
+    {
+        "data": {
+            "confidence": 100, 
+            "cycling": false, 
+            "fmt_time": "2016-06-30T00:05:18.205473-07:00", 
+            "unknown": false, 
+            "ts": 1467270318.205473, 
+            "walking": false, 
+            "confidence_level": "high", 
+            "running": false, 
+            "local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 18, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 5
+            }, 
+            "type": 3, 
+            "automotive": false, 
+            "stationary": true
+        }, 
+        "_id": {
+            "$oid": "5774cb67fe930a83ace7dab5"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T00:05:18.205473-07:00", 
+            "plugin": null, 
+            "write_ts": 1467270318.205473, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 18, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 5
+            }, 
+            "key": "background/motion_activity", 
+            "read_ts": 0, 
+            "type": "sensor-data"
+        }
+    }, 
+    {
+        "data": {
+            "confidence": 100, 
+            "cycling": false, 
+            "fmt_time": "2016-06-30T00:05:47.403720-07:00", 
+            "unknown": false, 
+            "ts": 1467270347.40372, 
+            "walking": false, 
+            "confidence_level": "high", 
+            "running": false, 
+            "local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 47, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 5
+            }, 
+            "type": 9, 
+            "automotive": false, 
+            "stationary": false
+        }, 
+        "_id": {
+            "$oid": "5774cb67fe930a83ace7dab6"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T00:05:47.403720-07:00", 
+            "plugin": null, 
+            "write_ts": 1467270347.40372, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 47, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 5
+            }, 
+            "key": "background/motion_activity", 
+            "read_ts": 0, 
+            "type": "sensor-data"
+        }
+    }, 
+    {
+        "data": {
+            "confidence": 100, 
+            "cycling": false, 
+            "fmt_time": "2016-06-30T00:05:53.368418-07:00", 
+            "unknown": false, 
+            "ts": 1467270353.368418, 
+            "walking": false, 
+            "confidence_level": "high", 
+            "running": false, 
+            "local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 53, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 5
+            }, 
+            "type": 3, 
+            "automotive": false, 
+            "stationary": true
+        }, 
+        "_id": {
+            "$oid": "5774cb67fe930a83ace7dab7"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T00:05:53.368418-07:00", 
+            "plugin": null, 
+            "write_ts": 1467270353.368418, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 53, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 5
+            }, 
+            "key": "background/motion_activity", 
+            "read_ts": 0, 
+            "type": "sensor-data"
+        }
+    }, 
+    {
+        "data": {
+            "confidence": 100, 
+            "cycling": false, 
+            "fmt_time": "2016-06-30T00:05:55.879791-07:00", 
+            "unknown": false, 
+            "ts": 1467270355.879791, 
+            "walking": false, 
+            "confidence_level": "high", 
+            "running": false, 
+            "local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 55, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 5
+            }, 
+            "type": 9, 
+            "automotive": false, 
+            "stationary": false
+        }, 
+        "_id": {
+            "$oid": "5774cb67fe930a83ace7dab8"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T00:05:55.879791-07:00", 
+            "plugin": null, 
+            "write_ts": 1467270355.879791, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 55, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 5
+            }, 
+            "key": "background/motion_activity", 
+            "read_ts": 0, 
+            "type": "sensor-data"
+        }
+    }, 
+    {
+        "data": {
+            "confidence": 100, 
+            "cycling": false, 
+            "fmt_time": "2016-06-30T00:06:04.984095-07:00", 
+            "unknown": false, 
+            "ts": 1467270364.984095, 
+            "walking": false, 
+            "confidence_level": "high", 
+            "running": false, 
+            "local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 4, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 6
+            }, 
+            "type": 3, 
+            "automotive": false, 
+            "stationary": true
+        }, 
+        "_id": {
+            "$oid": "5774cb67fe930a83ace7dab9"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T00:06:04.984095-07:00", 
+            "plugin": null, 
+            "write_ts": 1467270364.984095, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 4, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 6
+            }, 
+            "key": "background/motion_activity", 
+            "read_ts": 0, 
+            "type": "sensor-data"
+        }
+    }, 
+    {
+        "data": {
+            "confidence": 100, 
+            "cycling": false, 
+            "fmt_time": "2016-06-30T00:06:07.809658-07:00", 
+            "unknown": false, 
+            "ts": 1467270367.809658, 
+            "walking": false, 
+            "confidence_level": "high", 
+            "running": false, 
+            "local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 7, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 6
+            }, 
+            "type": 9, 
+            "automotive": false, 
+            "stationary": false
+        }, 
+        "_id": {
+            "$oid": "5774cb67fe930a83ace7daba"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T00:06:07.809658-07:00", 
+            "plugin": null, 
+            "write_ts": 1467270367.809658, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 7, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 6
+            }, 
+            "key": "background/motion_activity", 
+            "read_ts": 0, 
+            "type": "sensor-data"
+        }
+    }, 
+    {
+        "data": {
+            "confidence": 100, 
+            "cycling": false, 
+            "fmt_time": "2016-06-30T00:06:25.388286-07:00", 
+            "unknown": false, 
+            "ts": 1467270385.388286, 
+            "walking": false, 
+            "confidence_level": "high", 
+            "running": false, 
+            "local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 25, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 6
+            }, 
+            "type": 3, 
+            "automotive": false, 
+            "stationary": true
+        }, 
+        "_id": {
+            "$oid": "5774cb67fe930a83ace7dabb"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T00:06:25.388286-07:00", 
+            "plugin": null, 
+            "write_ts": 1467270385.388286, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 25, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 6
+            }, 
+            "key": "background/motion_activity", 
+            "read_ts": 0, 
+            "type": "sensor-data"
+        }
+    }, 
+    {
+        "data": {
+            "confidence": 75, 
+            "cycling": false, 
+            "fmt_time": "2016-06-30T00:07:20.326867-07:00", 
+            "unknown": false, 
+            "ts": 1467270440.326867, 
+            "walking": false, 
+            "confidence_level": "medium", 
+            "running": false, 
+            "local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 20, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 7
+            }, 
+            "type": 9, 
+            "automotive": false, 
+            "stationary": false
+        }, 
+        "_id": {
+            "$oid": "5774cb67fe930a83ace7dabc"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T00:07:20.326867-07:00", 
+            "plugin": null, 
+            "write_ts": 1467270440.326867, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 20, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 7
+            }, 
+            "key": "background/motion_activity", 
+            "read_ts": 0, 
+            "type": "sensor-data"
+        }
+    }, 
+    {
+        "data": {
+            "confidence": 100, 
+            "cycling": false, 
+            "fmt_time": "2016-06-30T00:07:24.094439-07:00", 
+            "unknown": false, 
+            "ts": 1467270444.094439, 
+            "walking": false, 
+            "confidence_level": "high", 
+            "running": false, 
+            "local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 24, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 7
+            }, 
+            "type": 3, 
+            "automotive": false, 
+            "stationary": true
+        }, 
+        "_id": {
+            "$oid": "5774cb67fe930a83ace7dabd"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T00:07:24.094439-07:00", 
+            "plugin": null, 
+            "write_ts": 1467270444.094439, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 24, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 7
+            }, 
+            "key": "background/motion_activity", 
+            "read_ts": 0, 
+            "type": "sensor-data"
+        }
+    }, 
+    {
+        "data": {
+            "curr_state": 3, 
+            "transition": 7, 
+            "local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 57, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 33
+            }, 
+            "ts": 1467272037.634609, 
+            "fmt_time": "2016-06-30T00:33:57.634609-07:00"
+        }, 
+        "_id": {
+            "$oid": "5774cb67fe930a83ace7daae"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T00:33:57.634609-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467272037.634609, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 57, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 33
+            }, 
+            "key": "statemachine/transition", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "fmt_time": "2016-06-30T00:33:57.645716-07:00", 
+            "local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 57, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 33
+            }, 
+            "ts": 1467272037.645716, 
+            "battery_status": 2, 
+            "battery_level_pct": 100
+        }, 
+        "_id": {
+            "$oid": "5774cb67fe930a83ace7daaf"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T00:33:57.645716-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467272037.645716, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 57, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 33
+            }, 
+            "key": "background/battery", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "confidence": 100, 
+            "cycling": false, 
+            "fmt_time": "2016-06-30T00:44:10.294498-07:00", 
+            "unknown": false, 
+            "ts": 1467272650.294498, 
+            "walking": false, 
+            "confidence_level": "high", 
+            "running": false, 
+            "local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 10, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 44
+            }, 
+            "type": 9, 
+            "automotive": false, 
+            "stationary": false
+        }, 
+        "_id": {
+            "$oid": "5774d294fe930a83ace7e165"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T00:44:10.294498-07:00", 
+            "plugin": null, 
+            "write_ts": 1467272650.294498, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 10, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 44
+            }, 
+            "key": "background/motion_activity", 
+            "read_ts": 0, 
+            "type": "sensor-data"
+        }
+    }, 
+    {
+        "data": {
+            "confidence": 100, 
+            "cycling": false, 
+            "fmt_time": "2016-06-30T00:44:14.271178-07:00", 
+            "unknown": false, 
+            "ts": 1467272654.271178, 
+            "walking": false, 
+            "confidence_level": "high", 
+            "running": false, 
+            "local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 14, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 44
+            }, 
+            "type": 3, 
+            "automotive": false, 
+            "stationary": true
+        }, 
+        "_id": {
+            "$oid": "5774d294fe930a83ace7e166"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T00:44:14.271178-07:00", 
+            "plugin": null, 
+            "write_ts": 1467272654.271178, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 14, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 44
+            }, 
+            "key": "background/motion_activity", 
+            "read_ts": 0, 
+            "type": "sensor-data"
+        }
+    }, 
+    {
+        "data": {
+            "confidence": 100, 
+            "cycling": false, 
+            "fmt_time": "2016-06-30T00:44:19.614555-07:00", 
+            "unknown": false, 
+            "ts": 1467272659.614555, 
+            "walking": false, 
+            "confidence_level": "high", 
+            "running": false, 
+            "local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 19, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 44
+            }, 
+            "type": 9, 
+            "automotive": false, 
+            "stationary": false
+        }, 
+        "_id": {
+            "$oid": "5774d294fe930a83ace7e167"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T00:44:19.614555-07:00", 
+            "plugin": null, 
+            "write_ts": 1467272659.614555, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 19, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 44
+            }, 
+            "key": "background/motion_activity", 
+            "read_ts": 0, 
+            "type": "sensor-data"
+        }
+    }, 
+    {
+        "data": {
+            "confidence": 100, 
+            "cycling": false, 
+            "fmt_time": "2016-06-30T00:44:23.386027-07:00", 
+            "unknown": false, 
+            "ts": 1467272663.386027, 
+            "walking": false, 
+            "confidence_level": "high", 
+            "running": false, 
+            "local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 23, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 44
+            }, 
+            "type": 3, 
+            "automotive": false, 
+            "stationary": true
+        }, 
+        "_id": {
+            "$oid": "5774d294fe930a83ace7e168"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T00:44:23.386027-07:00", 
+            "plugin": null, 
+            "write_ts": 1467272663.386027, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 23, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 44
+            }, 
+            "key": "background/motion_activity", 
+            "read_ts": 0, 
+            "type": "sensor-data"
+        }
+    }, 
+    {
+        "data": {
+            "confidence": 75, 
+            "cycling": false, 
+            "fmt_time": "2016-06-30T00:44:28.727339-07:00", 
+            "unknown": false, 
+            "ts": 1467272668.727339, 
+            "walking": false, 
+            "confidence_level": "medium", 
+            "running": false, 
+            "local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 28, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 44
+            }, 
+            "type": 9, 
+            "automotive": false, 
+            "stationary": false
+        }, 
+        "_id": {
+            "$oid": "5774d294fe930a83ace7e169"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T00:44:28.727339-07:00", 
+            "plugin": null, 
+            "write_ts": 1467272668.727339, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 28, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 44
+            }, 
+            "key": "background/motion_activity", 
+            "read_ts": 0, 
+            "type": "sensor-data"
+        }
+    }, 
+    {
+        "data": {
+            "confidence": 100, 
+            "cycling": false, 
+            "fmt_time": "2016-06-30T00:44:32.497723-07:00", 
+            "unknown": false, 
+            "ts": 1467272672.497723, 
+            "walking": false, 
+            "confidence_level": "high", 
+            "running": false, 
+            "local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 32, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 44
+            }, 
+            "type": 3, 
+            "automotive": false, 
+            "stationary": true
+        }, 
+        "_id": {
+            "$oid": "5774d294fe930a83ace7e16a"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T00:44:32.497723-07:00", 
+            "plugin": null, 
+            "write_ts": 1467272672.497723, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 32, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 44
+            }, 
+            "key": "background/motion_activity", 
+            "read_ts": 0, 
+            "type": "sensor-data"
+        }
+    }, 
+    {
+        "data": {
+            "curr_state": 3, 
+            "transition": 3, 
+            "local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 15, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 45
+            }, 
+            "ts": 1467272715.948911, 
+            "fmt_time": "2016-06-30T00:45:15.948911-07:00"
+        }, 
+        "_id": {
+            "$oid": "5774d294fe930a83ace7e143"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T00:45:15.948911-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467272715.948911, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 15, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 45
+            }, 
+            "key": "statemachine/transition", 
+            "read_ts": 1467277203.573058, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "fmt_time": "2016-06-30T00:45:15.965793-07:00", 
+            "local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 15, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 45
+            }, 
+            "ts": 1467272715.965793, 
+            "battery_status": 3, 
+            "battery_level_pct": 100
+        }, 
+        "_id": {
+            "$oid": "5774d294fe930a83ace7e144"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T00:45:15.965793-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467272715.965793, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 15, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 45
+            }, 
+            "key": "background/battery", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "curr_state": 3, 
+            "transition": 11, 
+            "local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 16, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 45
+            }, 
+            "ts": 1467272716.043991, 
+            "fmt_time": "2016-06-30T00:45:16.043991-07:00"
+        }, 
+        "_id": {
+            "$oid": "5774d294fe930a83ace7e145"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T00:45:16.043991-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467272716.043991, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 16, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 45
+            }, 
+            "key": "statemachine/transition", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "fmt_time": "2016-06-30T00:45:16.061310-07:00", 
+            "local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 16, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 45
+            }, 
+            "ts": 1467272716.06131, 
+            "battery_status": 3, 
+            "battery_level_pct": 100
+        }, 
+        "_id": {
+            "$oid": "5774d294fe930a83ace7e146"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T00:45:16.061310-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467272716.06131, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 0, 
+                "month": 6, 
+                "second": 16, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 45
+            }, 
+            "key": "background/battery", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "curr_state": 3, 
+            "transition": 7, 
+            "local_dt": {
+                "hour": 1, 
+                "month": 6, 
+                "second": 10, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 0
+            }, 
+            "ts": 1467273610.106478, 
+            "fmt_time": "2016-06-30T01:00:10.106478-07:00"
+        }, 
+        "_id": {
+            "$oid": "5774d294fe930a83ace7e147"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T01:00:10.106478-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467273610.106478, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 1, 
+                "month": 6, 
+                "second": 10, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 0
+            }, 
+            "key": "statemachine/transition", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "fmt_time": "2016-06-30T01:00:10.124942-07:00", 
+            "local_dt": {
+                "hour": 1, 
+                "month": 6, 
+                "second": 10, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 0
+            }, 
+            "ts": 1467273610.124942, 
+            "battery_status": 3, 
+            "battery_level_pct": 100
+        }, 
+        "_id": {
+            "$oid": "5774d294fe930a83ace7e148"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T01:00:10.124942-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467273610.124942, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 1, 
+                "month": 6, 
+                "second": 10, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 0
+            }, 
+            "key": "background/battery", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "curr_state": 3, 
+            "transition": 16, 
+            "local_dt": {
+                "hour": 1, 
+                "month": 6, 
+                "second": 37, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 4
+            }, 
+            "ts": 1467273877.633825, 
+            "fmt_time": "2016-06-30T01:04:37.633825-07:00"
+        }, 
+        "_id": {
+            "$oid": "5774d5d6fe930a83ace7e4e3"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T01:04:37.633825-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467273877.633825, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 1, 
+                "month": 6, 
+                "second": 37, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 4
+            }, 
+            "key": "statemachine/transition", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "fmt_time": "2016-06-30T01:04:37.652418-07:00", 
+            "local_dt": {
+                "hour": 1, 
+                "month": 6, 
+                "second": 37, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 4
+            }, 
+            "ts": 1467273877.652418, 
+            "battery_status": 3, 
+            "battery_level_pct": 100
+        }, 
+        "_id": {
+            "$oid": "5774d5d6fe930a83ace7e4e4"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T01:04:37.652418-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467273877.652418, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 1, 
+                "month": 6, 
+                "second": 37, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 4
+            }, 
+            "key": "background/battery", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "confidence": 100, 
+            "cycling": false, 
+            "fmt_time": "2016-06-30T01:12:52.837656-07:00", 
+            "unknown": false, 
+            "ts": 1467274372.837656, 
+            "walking": false, 
+            "confidence_level": "high", 
+            "running": false, 
+            "local_dt": {
+                "hour": 1, 
+                "month": 6, 
+                "second": 52, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 12
+            }, 
+            "type": 9, 
+            "automotive": false, 
+            "stationary": false
+        }, 
+        "_id": {
+            "$oid": "5774d5d6fe930a83ace7e4e7"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T01:12:52.837656-07:00", 
+            "plugin": null, 
+            "write_ts": 1467274372.837656, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 1, 
+                "month": 6, 
+                "second": 52, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 12
+            }, 
+            "key": "background/motion_activity", 
+            "read_ts": 0, 
+            "type": "sensor-data"
+        }
+    }, 
+    {
+        "data": {
+            "confidence": 100, 
+            "cycling": false, 
+            "fmt_time": "2016-06-30T01:12:56.924205-07:00", 
+            "unknown": false, 
+            "ts": 1467274376.924205, 
+            "walking": false, 
+            "confidence_level": "high", 
+            "running": false, 
+            "local_dt": {
+                "hour": 1, 
+                "month": 6, 
+                "second": 56, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 12
+            }, 
+            "type": 3, 
+            "automotive": false, 
+            "stationary": true
+        }, 
+        "_id": {
+            "$oid": "5774d5d6fe930a83ace7e4e8"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T01:12:56.924205-07:00", 
+            "plugin": null, 
+            "write_ts": 1467274376.924205, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 1, 
+                "month": 6, 
+                "second": 56, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 12
+            }, 
+            "key": "background/motion_activity", 
+            "read_ts": 0, 
+            "type": "sensor-data"
+        }
+    }, 
+    {
+        "data": {
+            "confidence": 100, 
+            "cycling": false, 
+            "fmt_time": "2016-06-30T01:18:24.125103-07:00", 
+            "unknown": false, 
+            "ts": 1467274704.125103, 
+            "walking": false, 
+            "confidence_level": "high", 
+            "running": false, 
+            "local_dt": {
+                "hour": 1, 
+                "month": 6, 
+                "second": 24, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 18
+            }, 
+            "type": 9, 
+            "automotive": false, 
+            "stationary": false
+        }, 
+        "_id": {
+            "$oid": "5774db82fe930a83ace7e8f0"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T01:18:24.125103-07:00", 
+            "plugin": null, 
+            "write_ts": 1467274704.125103, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 1, 
+                "month": 6, 
+                "second": 24, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 18
+            }, 
+            "key": "background/motion_activity", 
+            "read_ts": 0, 
+            "type": "sensor-data"
+        }
+    }, 
+    {
+        "data": {
+            "curr_state": 3, 
+            "transition": 7, 
+            "local_dt": {
+                "hour": 1, 
+                "month": 6, 
+                "second": 27, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 18
+            }, 
+            "ts": 1467274707.964181, 
+            "fmt_time": "2016-06-30T01:18:27.964181-07:00"
+        }, 
+        "_id": {
+            "$oid": "5774d5d6fe930a83ace7e4e5"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T01:18:27.964181-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467274707.964181, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 1, 
+                "month": 6, 
+                "second": 27, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 18
+            }, 
+            "key": "statemachine/transition", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "fmt_time": "2016-06-30T01:18:27.993091-07:00", 
+            "local_dt": {
+                "hour": 1, 
+                "month": 6, 
+                "second": 27, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 18
+            }, 
+            "ts": 1467274707.993091, 
+            "battery_status": 1, 
+            "battery_level_pct": 100
+        }, 
+        "_id": {
+            "$oid": "5774d5d6fe930a83ace7e4e6"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T01:18:27.993091-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467274707.993091, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 1, 
+                "month": 6, 
+                "second": 27, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 18
+            }, 
+            "key": "background/battery", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "curr_state": 3, 
+            "transition": 16, 
+            "local_dt": {
+                "hour": 1, 
+                "month": 6, 
+                "second": 32, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 18
+            }, 
+            "ts": 1467274712.701115, 
+            "fmt_time": "2016-06-30T01:18:32.701115-07:00"
+        }, 
+        "_id": {
+            "$oid": "5774db81fe930a83ace7e8ec"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T01:18:32.701115-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467274712.701115, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 1, 
+                "month": 6, 
+                "second": 32, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 18
+            }, 
+            "key": "statemachine/transition", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "fmt_time": "2016-06-30T01:18:32.715107-07:00", 
+            "local_dt": {
+                "hour": 1, 
+                "month": 6, 
+                "second": 32, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 18
+            }, 
+            "ts": 1467274712.715107, 
+            "battery_status": 1, 
+            "battery_level_pct": 100
+        }, 
+        "_id": {
+            "$oid": "5774db81fe930a83ace7e8ed"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T01:18:32.715107-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467274712.715107, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 1, 
+                "month": 6, 
+                "second": 32, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 18
+            }, 
+            "key": "background/battery", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "confidence": 100, 
+            "cycling": false, 
+            "fmt_time": "2016-06-30T01:18:34.576034-07:00", 
+            "unknown": false, 
+            "ts": 1467274714.576034, 
+            "walking": false, 
+            "confidence_level": "high", 
+            "running": false, 
+            "local_dt": {
+                "hour": 1, 
+                "month": 6, 
+                "second": 34, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 18
+            }, 
+            "type": 3, 
+            "automotive": false, 
+            "stationary": true
+        }, 
+        "_id": {
+            "$oid": "5774db82fe930a83ace7e8f1"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T01:18:34.576034-07:00", 
+            "plugin": null, 
+            "write_ts": 1467274714.576034, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 1, 
+                "month": 6, 
+                "second": 34, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 18
+            }, 
+            "key": "background/motion_activity", 
+            "read_ts": 0, 
+            "type": "sensor-data"
+        }
+    }, 
+    {
+        "data": {
+            "confidence": 100, 
+            "cycling": false, 
+            "fmt_time": "2016-06-30T01:18:37.404826-07:00", 
+            "unknown": false, 
+            "ts": 1467274717.404826, 
+            "walking": false, 
+            "confidence_level": "high", 
+            "running": false, 
+            "local_dt": {
+                "hour": 1, 
+                "month": 6, 
+                "second": 37, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 18
+            }, 
+            "type": 9, 
+            "automotive": false, 
+            "stationary": false
+        }, 
+        "_id": {
+            "$oid": "5774db82fe930a83ace7e8f2"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T01:18:37.404826-07:00", 
+            "plugin": null, 
+            "write_ts": 1467274717.404826, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 1, 
+                "month": 6, 
+                "second": 37, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 18
+            }, 
+            "key": "background/motion_activity", 
+            "read_ts": 0, 
+            "type": "sensor-data"
+        }
+    }, 
+    {
+        "data": {
+            "confidence": 100, 
+            "cycling": false, 
+            "fmt_time": "2016-06-30T01:18:46.146974-07:00", 
+            "unknown": false, 
+            "ts": 1467274726.146974, 
+            "walking": false, 
+            "confidence_level": "high", 
+            "running": false, 
+            "local_dt": {
+                "hour": 1, 
+                "month": 6, 
+                "second": 46, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 18
+            }, 
+            "type": 3, 
+            "automotive": false, 
+            "stationary": true
+        }, 
+        "_id": {
+            "$oid": "5774db82fe930a83ace7e8f3"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T01:18:46.146974-07:00", 
+            "plugin": null, 
+            "write_ts": 1467274726.146974, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 1, 
+                "month": 6, 
+                "second": 46, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 18
+            }, 
+            "key": "background/motion_activity", 
+            "read_ts": 0, 
+            "type": "sensor-data"
+        }
+    }, 
+    {
+        "data": {
+            "curr_state": 3, 
+            "transition": 7, 
+            "local_dt": {
+                "hour": 1, 
+                "month": 6, 
+                "second": 39, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 42
+            }, 
+            "ts": 1467276159.906061, 
+            "fmt_time": "2016-06-30T01:42:39.906061-07:00"
+        }, 
+        "_id": {
+            "$oid": "5774db81fe930a83ace7e8ee"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T01:42:39.906061-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467276159.906061, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 1, 
+                "month": 6, 
+                "second": 39, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 42
+            }, 
+            "key": "statemachine/transition", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "fmt_time": "2016-06-30T01:42:39.924578-07:00", 
+            "local_dt": {
+                "hour": 1, 
+                "month": 6, 
+                "second": 39, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 42
+            }, 
+            "ts": 1467276159.924578, 
+            "battery_status": 1, 
+            "battery_level_pct": 100
+        }, 
+        "_id": {
+            "$oid": "5774db81fe930a83ace7e8ef"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T01:42:39.924578-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467276159.924578, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 1, 
+                "month": 6, 
+                "second": 39, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 42
+            }, 
+            "key": "background/battery", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "curr_state": 3, 
+            "transition": 16, 
+            "local_dt": {
+                "hour": 1, 
+                "month": 6, 
+                "second": 44, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 42
+            }, 
+            "ts": 1467276164.39457, 
+            "fmt_time": "2016-06-30T01:42:44.394570-07:00"
+        }, 
+        "_id": {
+            "$oid": "5774df92fe930a83ace7e941"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T01:42:44.394570-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467276164.39457, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 1, 
+                "month": 6, 
+                "second": 44, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 42
+            }, 
+            "key": "statemachine/transition", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "fmt_time": "2016-06-30T01:42:44.416590-07:00", 
+            "local_dt": {
+                "hour": 1, 
+                "month": 6, 
+                "second": 44, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 42
+            }, 
+            "ts": 1467276164.41659, 
+            "battery_status": 1, 
+            "battery_level_pct": 100
+        }, 
+        "_id": {
+            "$oid": "5774df92fe930a83ace7e942"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T01:42:44.416590-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467276164.41659, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 1, 
+                "month": 6, 
+                "second": 44, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 42
+            }, 
+            "key": "background/battery", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "curr_state": 3, 
+            "transition": 7, 
+            "local_dt": {
+                "hour": 2, 
+                "month": 6, 
+                "second": 0, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 0
+            }, 
+            "ts": 1467277200.788401, 
+            "fmt_time": "2016-06-30T02:00:00.788401-07:00"
+        }, 
+        "_id": {
+            "$oid": "5774df92fe930a83ace7e943"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T02:00:00.788401-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467277200.788401, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 2, 
+                "month": 6, 
+                "second": 0, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 0
+            }, 
+            "key": "statemachine/transition", 
+            "read_ts": 1467280803.556329, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "fmt_time": "2016-06-30T02:00:00.802435-07:00", 
+            "local_dt": {
+                "hour": 2, 
+                "month": 6, 
+                "second": 0, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 0
+            }, 
+            "ts": 1467277200.802435, 
+            "battery_status": 1, 
+            "battery_level_pct": 100
+        }, 
+        "_id": {
+            "$oid": "5774df92fe930a83ace7e944"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T02:00:00.802435-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467277200.802435, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 2, 
+                "month": 6, 
+                "second": 0, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 0
+            }, 
+            "key": "background/battery", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "curr_state": 3, 
+            "transition": 7, 
+            "local_dt": {
+                "hour": 16, 
+                "month": 6, 
+                "second": 10, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 0
+            }, 
+            "ts": 1467327610.515295, 
+            "fmt_time": "2016-06-30T16:00:10.515295-07:00"
+        }, 
+        "_id": {
+            "$oid": "5775a47dfe930a83ace81c78"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T16:00:10.515295-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467327610.515295, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 16, 
+                "month": 6, 
+                "second": 10, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 0
+            }, 
+            "key": "statemachine/transition", 
+            "read_ts": 1467331203.448727, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "fmt_time": "2016-06-30T16:00:10.529149-07:00", 
+            "local_dt": {
+                "hour": 16, 
+                "month": 6, 
+                "second": 10, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 0
+            }, 
+            "ts": 1467327610.529149, 
+            "battery_status": 1, 
+            "battery_level_pct": 100
+        }, 
+        "_id": {
+            "$oid": "5775a47dfe930a83ace81c79"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T16:00:10.529149-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467327610.529149, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 16, 
+                "month": 6, 
+                "second": 10, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 0
+            }, 
+            "key": "background/battery", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "curr_state": 3, 
+            "transition": 16, 
+            "local_dt": {
+                "hour": 16, 
+                "month": 6, 
+                "second": 23, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 0
+            }, 
+            "ts": 1467327623.759267, 
+            "fmt_time": "2016-06-30T16:00:23.759267-07:00"
+        }, 
+        "_id": {
+            "$oid": "5775a8d6fe930a83ace81d4c"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T16:00:23.759267-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467327623.759267, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 16, 
+                "month": 6, 
+                "second": 23, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 0
+            }, 
+            "key": "statemachine/transition", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "fmt_time": "2016-06-30T16:00:23.781224-07:00", 
+            "local_dt": {
+                "hour": 16, 
+                "month": 6, 
+                "second": 23, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 0
+            }, 
+            "ts": 1467327623.781224, 
+            "battery_status": 1, 
+            "battery_level_pct": 100
+        }, 
+        "_id": {
+            "$oid": "5775a8d6fe930a83ace81d4d"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T16:00:23.781224-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467327623.781224, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 16, 
+                "month": 6, 
+                "second": 23, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 0
+            }, 
+            "key": "background/battery", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "curr_state": 3, 
+            "transition": 7, 
+            "local_dt": {
+                "hour": 16, 
+                "month": 6, 
+                "second": 44, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 18
+            }, 
+            "ts": 1467328724.512611, 
+            "fmt_time": "2016-06-30T16:18:44.512611-07:00"
+        }, 
+        "_id": {
+            "$oid": "5775a8d6fe930a83ace81d4e"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T16:18:44.512611-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467328724.512611, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 16, 
+                "month": 6, 
+                "second": 44, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 18
+            }, 
+            "key": "statemachine/transition", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "fmt_time": "2016-06-30T16:18:44.527459-07:00", 
+            "local_dt": {
+                "hour": 16, 
+                "month": 6, 
+                "second": 44, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 18
+            }, 
+            "ts": 1467328724.527459, 
+            "battery_status": 1, 
+            "battery_level_pct": 100
+        }, 
+        "_id": {
+            "$oid": "5775a8d6fe930a83ace81d4f"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T16:18:44.527459-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467328724.527459, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 16, 
+                "month": 6, 
+                "second": 44, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 18
+            }, 
+            "key": "background/battery", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "curr_state": 3, 
+            "transition": 16, 
+            "local_dt": {
+                "hour": 16, 
+                "month": 6, 
+                "second": 47, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 18
+            }, 
+            "ts": 1467328727.375388, 
+            "fmt_time": "2016-06-30T16:18:47.375388-07:00"
+        }, 
+        "_id": {
+            "$oid": "5775afcffe930a83ace81d84"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T16:18:47.375388-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467328727.375388, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 16, 
+                "month": 6, 
+                "second": 47, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 18
+            }, 
+            "key": "statemachine/transition", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "fmt_time": "2016-06-30T16:18:47.394423-07:00", 
+            "local_dt": {
+                "hour": 16, 
+                "month": 6, 
+                "second": 47, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 18
+            }, 
+            "ts": 1467328727.394423, 
+            "battery_status": 1, 
+            "battery_level_pct": 100
+        }, 
+        "_id": {
+            "$oid": "5775afcffe930a83ace81d85"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T16:18:47.394423-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467328727.394423, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 16, 
+                "month": 6, 
+                "second": 47, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 18
+            }, 
+            "key": "background/battery", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "curr_state": 3, 
+            "transition": 7, 
+            "local_dt": {
+                "hour": 16, 
+                "month": 6, 
+                "second": 30, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 48
+            }, 
+            "ts": 1467330510.023252, 
+            "fmt_time": "2016-06-30T16:48:30.023252-07:00"
+        }, 
+        "_id": {
+            "$oid": "5775afcffe930a83ace81d86"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T16:48:30.023252-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467330510.023252, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 16, 
+                "month": 6, 
+                "second": 30, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 48
+            }, 
+            "key": "statemachine/transition", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "fmt_time": "2016-06-30T16:48:30.056492-07:00", 
+            "local_dt": {
+                "hour": 16, 
+                "month": 6, 
+                "second": 30, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 48
+            }, 
+            "ts": 1467330510.056492, 
+            "battery_status": 1, 
+            "battery_level_pct": 100
+        }, 
+        "_id": {
+            "$oid": "5775afcffe930a83ace81d87"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T16:48:30.056492-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467330510.056492, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 16, 
+                "month": 6, 
+                "second": 30, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 48
+            }, 
+            "key": "background/battery", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "curr_state": 3, 
+            "transition": 7, 
+            "local_dt": {
+                "hour": 17, 
+                "month": 6, 
+                "second": 8, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 14
+            }, 
+            "ts": 1467332048.171167, 
+            "fmt_time": "2016-06-30T17:14:08.171167-07:00"
+        }, 
+        "_id": {
+            "$oid": "5775b5d2fe930a83ace81ece"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T17:14:08.171167-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467332048.171167, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 17, 
+                "month": 6, 
+                "second": 8, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 14
+            }, 
+            "key": "statemachine/transition", 
+            "read_ts": 1467334803.848836, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "fmt_time": "2016-06-30T17:14:08.186295-07:00", 
+            "local_dt": {
+                "hour": 17, 
+                "month": 6, 
+                "second": 8, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 14
+            }, 
+            "ts": 1467332048.186295, 
+            "battery_status": 1, 
+            "battery_level_pct": 100
+        }, 
+        "_id": {
+            "$oid": "5775b5d2fe930a83ace81ecf"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T17:14:08.186295-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467332048.186295, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 17, 
+                "month": 6, 
+                "second": 8, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 14
+            }, 
+            "key": "background/battery", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "curr_state": 3, 
+            "transition": 16, 
+            "local_dt": {
+                "hour": 17, 
+                "month": 6, 
+                "second": 11, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 14
+            }, 
+            "ts": 1467332051.317344, 
+            "fmt_time": "2016-06-30T17:14:11.317344-07:00"
+        }, 
+        "_id": {
+            "$oid": "5775b98afe930a83ace82264"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T17:14:11.317344-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467332051.317344, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 17, 
+                "month": 6, 
+                "second": 11, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 14
+            }, 
+            "key": "statemachine/transition", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "fmt_time": "2016-06-30T17:14:11.336338-07:00", 
+            "local_dt": {
+                "hour": 17, 
+                "month": 6, 
+                "second": 11, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 14
+            }, 
+            "ts": 1467332051.336338, 
+            "battery_status": 1, 
+            "battery_level_pct": 100
+        }, 
+        "_id": {
+            "$oid": "5775b98afe930a83ace82265"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T17:14:11.336338-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467332051.336338, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 17, 
+                "month": 6, 
+                "second": 11, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 14
+            }, 
+            "key": "background/battery", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "curr_state": 3, 
+            "transition": 7, 
+            "local_dt": {
+                "hour": 17, 
+                "month": 6, 
+                "second": 1, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 30
+            }, 
+            "ts": 1467333001.078172, 
+            "fmt_time": "2016-06-30T17:30:01.078172-07:00"
+        }, 
+        "_id": {
+            "$oid": "5775b98afe930a83ace82266"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T17:30:01.078172-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467333001.078172, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 17, 
+                "month": 6, 
+                "second": 1, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 30
+            }, 
+            "key": "statemachine/transition", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "fmt_time": "2016-06-30T17:30:01.093320-07:00", 
+            "local_dt": {
+                "hour": 17, 
+                "month": 6, 
+                "second": 1, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 30
+            }, 
+            "ts": 1467333001.09332, 
+            "battery_status": 1, 
+            "battery_level_pct": 100
+        }, 
+        "_id": {
+            "$oid": "5775b98afe930a83ace82267"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T17:30:01.093320-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467333001.09332, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 17, 
+                "month": 6, 
+                "second": 1, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 30
+            }, 
+            "key": "background/battery", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "curr_state": 3, 
+            "transition": 16, 
+            "local_dt": {
+                "hour": 17, 
+                "month": 6, 
+                "second": 4, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 30
+            }, 
+            "ts": 1467333004.060527, 
+            "fmt_time": "2016-06-30T17:30:04.060527-07:00"
+        }, 
+        "_id": {
+            "$oid": "5775bd1efe930a83ace8231c"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T17:30:04.060527-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467333004.060527, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 17, 
+                "month": 6, 
+                "second": 4, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 30
+            }, 
+            "key": "statemachine/transition", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "fmt_time": "2016-06-30T17:30:04.077545-07:00", 
+            "local_dt": {
+                "hour": 17, 
+                "month": 6, 
+                "second": 4, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 30
+            }, 
+            "ts": 1467333004.077545, 
+            "battery_status": 1, 
+            "battery_level_pct": 100
+        }, 
+        "_id": {
+            "$oid": "5775bd1efe930a83ace8231d"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T17:30:04.077545-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467333004.077545, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 17, 
+                "month": 6, 
+                "second": 4, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 30
+            }, 
+            "key": "background/battery", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "curr_state": 3, 
+            "transition": 7, 
+            "local_dt": {
+                "hour": 17, 
+                "month": 6, 
+                "second": 16, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 45
+            }, 
+            "ts": 1467333916.098627, 
+            "fmt_time": "2016-06-30T17:45:16.098627-07:00"
+        }, 
+        "_id": {
+            "$oid": "5775bd1efe930a83ace8231e"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T17:45:16.098627-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467333916.098627, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 17, 
+                "month": 6, 
+                "second": 16, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 45
+            }, 
+            "key": "statemachine/transition", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "fmt_time": "2016-06-30T17:45:16.113569-07:00", 
+            "local_dt": {
+                "hour": 17, 
+                "month": 6, 
+                "second": 16, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 45
+            }, 
+            "ts": 1467333916.113569, 
+            "battery_status": 1, 
+            "battery_level_pct": 100
+        }, 
+        "_id": {
+            "$oid": "5775bd1efe930a83ace8231f"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T17:45:16.113569-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467333916.113569, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 17, 
+                "month": 6, 
+                "second": 16, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 45
+            }, 
+            "key": "background/battery", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "curr_state": 3, 
+            "transition": 7, 
+            "local_dt": {
+                "hour": 18, 
+                "month": 6, 
+                "second": 31, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 26
+            }, 
+            "ts": 1467336391.818065, 
+            "fmt_time": "2016-06-30T18:26:31.818065-07:00"
+        }, 
+        "_id": {
+            "$oid": "5775c6c9fe930a83ace82368"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T18:26:31.818065-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467336391.818065, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 18, 
+                "month": 6, 
+                "second": 31, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 26
+            }, 
+            "key": "statemachine/transition", 
+            "read_ts": 1467338403.231638, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "fmt_time": "2016-06-30T18:26:31.855929-07:00", 
+            "local_dt": {
+                "hour": 18, 
+                "month": 6, 
+                "second": 31, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 26
+            }, 
+            "ts": 1467336391.855929, 
+            "battery_status": 1, 
+            "battery_level_pct": 100
+        }, 
+        "_id": {
+            "$oid": "5775c6c9fe930a83ace82369"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T18:26:31.855929-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467336391.855929, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 18, 
+                "month": 6, 
+                "second": 31, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 26
+            }, 
+            "key": "background/battery", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "curr_state": 3, 
+            "transition": 16, 
+            "local_dt": {
+                "hour": 18, 
+                "month": 6, 
+                "second": 34, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 26
+            }, 
+            "ts": 1467336394.713219, 
+            "fmt_time": "2016-06-30T18:26:34.713219-07:00"
+        }, 
+        "_id": {
+            "$oid": "5775cdc2fe930a83ace83698"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T18:26:34.713219-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467336394.713219, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 18, 
+                "month": 6, 
+                "second": 34, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 26
+            }, 
+            "key": "statemachine/transition", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "fmt_time": "2016-06-30T18:26:34.732527-07:00", 
+            "local_dt": {
+                "hour": 18, 
+                "month": 6, 
+                "second": 34, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 26
+            }, 
+            "ts": 1467336394.732527, 
+            "battery_status": 1, 
+            "battery_level_pct": 100
+        }, 
+        "_id": {
+            "$oid": "5775cdc2fe930a83ace83699"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T18:26:34.732527-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467336394.732527, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 18, 
+                "month": 6, 
+                "second": 34, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 26
+            }, 
+            "key": "background/battery", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "curr_state": 3, 
+            "transition": 7, 
+            "local_dt": {
+                "hour": 18, 
+                "month": 6, 
+                "second": 17, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 56
+            }, 
+            "ts": 1467338177.126831, 
+            "fmt_time": "2016-06-30T18:56:17.126831-07:00"
+        }, 
+        "_id": {
+            "$oid": "5775cdc2fe930a83ace8369a"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T18:56:17.126831-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467338177.126831, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 18, 
+                "month": 6, 
+                "second": 17, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 56
+            }, 
+            "key": "statemachine/transition", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "fmt_time": "2016-06-30T18:56:17.145977-07:00", 
+            "local_dt": {
+                "hour": 18, 
+                "month": 6, 
+                "second": 17, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 56
+            }, 
+            "ts": 1467338177.145977, 
+            "battery_status": 1, 
+            "battery_level_pct": 100
+        }, 
+        "_id": {
+            "$oid": "5775cdc2fe930a83ace8369b"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T18:56:17.145977-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467338177.145977, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 18, 
+                "month": 6, 
+                "second": 17, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 56
+            }, 
+            "key": "background/battery", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "curr_state": 3, 
+            "transition": 7, 
+            "local_dt": {
+                "hour": 19, 
+                "month": 6, 
+                "second": 2, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 26
+            }, 
+            "ts": 1467339962.015208, 
+            "fmt_time": "2016-06-30T19:26:02.015208-07:00"
+        }, 
+        "_id": {
+            "$oid": "5775d4bbfe930a83ace8491a"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T19:26:02.015208-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467339962.015208, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 19, 
+                "month": 6, 
+                "second": 2, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 26
+            }, 
+            "key": "statemachine/transition", 
+            "read_ts": 1467342004.09268, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "fmt_time": "2016-06-30T19:26:02.032808-07:00", 
+            "local_dt": {
+                "hour": 19, 
+                "month": 6, 
+                "second": 2, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 26
+            }, 
+            "ts": 1467339962.032808, 
+            "battery_status": 1, 
+            "battery_level_pct": 100
+        }, 
+        "_id": {
+            "$oid": "5775d4bbfe930a83ace8491b"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T19:26:02.032808-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467339962.032808, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 19, 
+                "month": 6, 
+                "second": 2, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 26
+            }, 
+            "key": "background/battery", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "curr_state": 3, 
+            "transition": 16, 
+            "local_dt": {
+                "hour": 19, 
+                "month": 6, 
+                "second": 5, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 26
+            }, 
+            "ts": 1467339965.34396, 
+            "fmt_time": "2016-06-30T19:26:05.343960-07:00"
+        }, 
+        "_id": {
+            "$oid": "5775dbb5fe930a83ace84965"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T19:26:05.343960-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467339965.34396, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 19, 
+                "month": 6, 
+                "second": 5, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 26
+            }, 
+            "key": "statemachine/transition", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "fmt_time": "2016-06-30T19:26:05.364086-07:00", 
+            "local_dt": {
+                "hour": 19, 
+                "month": 6, 
+                "second": 5, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 26
+            }, 
+            "ts": 1467339965.364086, 
+            "battery_status": 1, 
+            "battery_level_pct": 100
+        }, 
+        "_id": {
+            "$oid": "5775dbb5fe930a83ace84966"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T19:26:05.364086-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467339965.364086, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 19, 
+                "month": 6, 
+                "second": 5, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 26
+            }, 
+            "key": "background/battery", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "confidence": 100, 
+            "cycling": false, 
+            "fmt_time": "2016-06-30T19:43:34.584729-07:00", 
+            "unknown": false, 
+            "ts": 1467341014.584729, 
+            "walking": false, 
+            "confidence_level": "high", 
+            "running": false, 
+            "local_dt": {
+                "hour": 19, 
+                "month": 6, 
+                "second": 34, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 43
+            }, 
+            "type": 9, 
+            "automotive": false, 
+            "stationary": false
+        }, 
+        "_id": {
+            "$oid": "5775dbb5fe930a83ace84969"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T19:43:34.584729-07:00", 
+            "plugin": null, 
+            "write_ts": 1467341014.584729, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 19, 
+                "month": 6, 
+                "second": 34, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 43
+            }, 
+            "key": "background/motion_activity", 
+            "read_ts": 0, 
+            "type": "sensor-data"
+        }
+    }, 
+    {
+        "data": {
+            "curr_state": 3, 
+            "transition": 7, 
+            "local_dt": {
+                "hour": 19, 
+                "month": 6, 
+                "second": 47, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 55
+            }, 
+            "ts": 1467341747.167094, 
+            "fmt_time": "2016-06-30T19:55:47.167094-07:00"
+        }, 
+        "_id": {
+            "$oid": "5775dbb5fe930a83ace84967"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T19:55:47.167094-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467341747.167094, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 19, 
+                "month": 6, 
+                "second": 47, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 55
+            }, 
+            "key": "statemachine/transition", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "fmt_time": "2016-06-30T19:55:47.178694-07:00", 
+            "local_dt": {
+                "hour": 19, 
+                "month": 6, 
+                "second": 47, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 55
+            }, 
+            "ts": 1467341747.178694, 
+            "battery_status": 1, 
+            "battery_level_pct": 100
+        }, 
+        "_id": {
+            "$oid": "5775dbb5fe930a83ace84968"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T19:55:47.178694-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467341747.178694, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 19, 
+                "month": 6, 
+                "second": 47, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 55
+            }, 
+            "key": "background/battery", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "curr_state": 3, 
+            "transition": 7, 
+            "local_dt": {
+                "hour": 20, 
+                "month": 6, 
+                "second": 32, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 25
+            }, 
+            "ts": 1467343532.606517, 
+            "fmt_time": "2016-06-30T20:25:32.606517-07:00"
+        }, 
+        "_id": {
+            "$oid": "5775e2aefe930a83ace84a40"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T20:25:32.606517-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467343532.606517, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 20, 
+                "month": 6, 
+                "second": 32, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 25
+            }, 
+            "key": "statemachine/transition", 
+            "read_ts": 1467345604.036638, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "fmt_time": "2016-06-30T20:25:32.621849-07:00", 
+            "local_dt": {
+                "hour": 20, 
+                "month": 6, 
+                "second": 32, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 25
+            }, 
+            "ts": 1467343532.621849, 
+            "battery_status": 1, 
+            "battery_level_pct": 100
+        }, 
+        "_id": {
+            "$oid": "5775e2aefe930a83ace84a41"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T20:25:32.621849-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467343532.621849, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 20, 
+                "month": 6, 
+                "second": 32, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 25
+            }, 
+            "key": "background/battery", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "curr_state": 3, 
+            "transition": 16, 
+            "local_dt": {
+                "hour": 20, 
+                "month": 6, 
+                "second": 36, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 25
+            }, 
+            "ts": 1467343536.0548, 
+            "fmt_time": "2016-06-30T20:25:36.054800-07:00"
+        }, 
+        "_id": {
+            "$oid": "5775ea87fe930a83ace8688b"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T20:25:36.054800-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467343536.0548, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 20, 
+                "month": 6, 
+                "second": 36, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 25
+            }, 
+            "key": "statemachine/transition", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "fmt_time": "2016-06-30T20:25:36.074766-07:00", 
+            "local_dt": {
+                "hour": 20, 
+                "month": 6, 
+                "second": 36, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 25
+            }, 
+            "ts": 1467343536.074766, 
+            "battery_status": 1, 
+            "battery_level_pct": 100
+        }, 
+        "_id": {
+            "$oid": "5775ea87fe930a83ace8688c"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T20:25:36.074766-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467343536.074766, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 20, 
+                "month": 6, 
+                "second": 36, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 25
+            }, 
+            "key": "background/battery", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "curr_state": 3, 
+            "transition": 7, 
+            "local_dt": {
+                "hour": 20, 
+                "month": 6, 
+                "second": 1, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 59
+            }, 
+            "ts": 1467345541.9644, 
+            "fmt_time": "2016-06-30T20:59:01.964400-07:00"
+        }, 
+        "_id": {
+            "$oid": "5775ea87fe930a83ace8688d"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T20:59:01.964400-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467345541.9644, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 20, 
+                "month": 6, 
+                "second": 1, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 59
+            }, 
+            "key": "statemachine/transition", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "fmt_time": "2016-06-30T20:59:01.986431-07:00", 
+            "local_dt": {
+                "hour": 20, 
+                "month": 6, 
+                "second": 1, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 59
+            }, 
+            "ts": 1467345541.986431, 
+            "battery_status": 1, 
+            "battery_level_pct": 99.0
+        }, 
+        "_id": {
+            "$oid": "5775ea87fe930a83ace8688e"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T20:59:01.986431-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467345541.986431, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 20, 
+                "month": 6, 
+                "second": 1, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 59
+            }, 
+            "key": "background/battery", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "curr_state": 3, 
+            "transition": 7, 
+            "local_dt": {
+                "hour": 21, 
+                "month": 6, 
+                "second": 2, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 25
+            }, 
+            "ts": 1467347102.926094, 
+            "fmt_time": "2016-06-30T21:25:02.926094-07:00"
+        }, 
+        "_id": {
+            "$oid": "5775f0a0fe930a83ace86965"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T21:25:02.926094-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467347102.926094, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 21, 
+                "month": 6, 
+                "second": 2, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 25
+            }, 
+            "key": "statemachine/transition", 
+            "read_ts": 1467349203.177692, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "fmt_time": "2016-06-30T21:25:02.942814-07:00", 
+            "local_dt": {
+                "hour": 21, 
+                "month": 6, 
+                "second": 2, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 25
+            }, 
+            "ts": 1467347102.942814, 
+            "battery_status": 1, 
+            "battery_level_pct": 99.0
+        }, 
+        "_id": {
+            "$oid": "5775f0a0fe930a83ace86966"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T21:25:02.942814-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467347102.942814, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 21, 
+                "month": 6, 
+                "second": 2, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 25
+            }, 
+            "key": "background/battery", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "curr_state": 3, 
+            "transition": 16, 
+            "local_dt": {
+                "hour": 21, 
+                "month": 6, 
+                "second": 6, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 25
+            }, 
+            "ts": 1467347106.313282, 
+            "fmt_time": "2016-06-30T21:25:06.313282-07:00"
+        }, 
+        "_id": {
+            "$oid": "5775f46dfe930a83ace869b5"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T21:25:06.313282-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467347106.313282, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 21, 
+                "month": 6, 
+                "second": 6, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 25
+            }, 
+            "key": "statemachine/transition", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "fmt_time": "2016-06-30T21:25:06.333153-07:00", 
+            "local_dt": {
+                "hour": 21, 
+                "month": 6, 
+                "second": 6, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 25
+            }, 
+            "ts": 1467347106.333153, 
+            "battery_status": 1, 
+            "battery_level_pct": 99.0
+        }, 
+        "_id": {
+            "$oid": "5775f46dfe930a83ace869b6"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T21:25:06.333153-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467347106.333153, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 21, 
+                "month": 6, 
+                "second": 6, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 25
+            }, 
+            "key": "background/battery", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "confidence": 100, 
+            "cycling": false, 
+            "fmt_time": "2016-06-30T21:29:43.347689-07:00", 
+            "unknown": false, 
+            "ts": 1467347383.347689, 
+            "walking": false, 
+            "confidence_level": "high", 
+            "running": false, 
+            "local_dt": {
+                "hour": 21, 
+                "month": 6, 
+                "second": 43, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 29
+            }, 
+            "type": 3, 
+            "automotive": false, 
+            "stationary": true
+        }, 
+        "_id": {
+            "$oid": "5775f46efe930a83ace869b9"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T21:29:43.347689-07:00", 
+            "plugin": null, 
+            "write_ts": 1467347383.347689, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 21, 
+                "month": 6, 
+                "second": 43, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 29
+            }, 
+            "key": "background/motion_activity", 
+            "read_ts": 0, 
+            "type": "sensor-data"
+        }
+    }, 
+    {
+        "data": {
+            "curr_state": 3, 
+            "transition": 7, 
+            "local_dt": {
+                "hour": 21, 
+                "month": 6, 
+                "second": 15, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 41
+            }, 
+            "ts": 1467348075.799015, 
+            "fmt_time": "2016-06-30T21:41:15.799015-07:00"
+        }, 
+        "_id": {
+            "$oid": "5775f46dfe930a83ace869b7"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T21:41:15.799015-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467348075.799015, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 21, 
+                "month": 6, 
+                "second": 15, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 41
+            }, 
+            "key": "statemachine/transition", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "fmt_time": "2016-06-30T21:41:15.816937-07:00", 
+            "local_dt": {
+                "hour": 21, 
+                "month": 6, 
+                "second": 15, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 41
+            }, 
+            "ts": 1467348075.816937, 
+            "battery_status": 1, 
+            "battery_level_pct": 99.0
+        }, 
+        "_id": {
+            "$oid": "5775f46dfe930a83ace869b8"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T21:41:15.816937-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467348075.816937, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 21, 
+                "month": 6, 
+                "second": 15, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 41
+            }, 
+            "key": "background/battery", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "curr_state": 3, 
+            "transition": 7, 
+            "local_dt": {
+                "hour": 22, 
+                "month": 6, 
+                "second": 19, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 0
+            }, 
+            "ts": 1467349219.808091, 
+            "fmt_time": "2016-06-30T22:00:19.808091-07:00"
+        }, 
+        "_id": {
+            "$oid": "5775f8e7fe930a83ace86d32"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T22:00:19.808091-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467349219.808091, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 22, 
+                "month": 6, 
+                "second": 19, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 0
+            }, 
+            "key": "statemachine/transition", 
+            "read_ts": 1467352803.738036, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "fmt_time": "2016-06-30T22:00:19.823439-07:00", 
+            "local_dt": {
+                "hour": 22, 
+                "month": 6, 
+                "second": 19, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 0
+            }, 
+            "ts": 1467349219.823439, 
+            "battery_status": 1, 
+            "battery_level_pct": 99.0
+        }, 
+        "_id": {
+            "$oid": "5775f8e7fe930a83ace86d33"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T22:00:19.823439-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467349219.823439, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 22, 
+                "month": 6, 
+                "second": 19, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 0
+            }, 
+            "key": "background/battery", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "curr_state": 3, 
+            "transition": 16, 
+            "local_dt": {
+                "hour": 22, 
+                "month": 6, 
+                "second": 24, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 0
+            }, 
+            "ts": 1467349224.882926, 
+            "fmt_time": "2016-06-30T22:00:24.882926-07:00"
+        }, 
+        "_id": {
+            "$oid": "5775fd03fe930a83ace86fd6"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T22:00:24.882926-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467349224.882926, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 22, 
+                "month": 6, 
+                "second": 24, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 0
+            }, 
+            "key": "statemachine/transition", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "fmt_time": "2016-06-30T22:00:24.900877-07:00", 
+            "local_dt": {
+                "hour": 22, 
+                "month": 6, 
+                "second": 24, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 0
+            }, 
+            "ts": 1467349224.900877, 
+            "battery_status": 1, 
+            "battery_level_pct": 99.0
+        }, 
+        "_id": {
+            "$oid": "5775fd03fe930a83ace86fd7"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T22:00:24.900877-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467349224.900877, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 22, 
+                "month": 6, 
+                "second": 24, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 0
+            }, 
+            "key": "background/battery", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "curr_state": 3, 
+            "transition": 7, 
+            "local_dt": {
+                "hour": 22, 
+                "month": 6, 
+                "second": 53, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 17
+            }, 
+            "ts": 1467350273.70388, 
+            "fmt_time": "2016-06-30T22:17:53.703880-07:00"
+        }, 
+        "_id": {
+            "$oid": "5775fd03fe930a83ace86fd8"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T22:17:53.703880-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467350273.70388, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 22, 
+                "month": 6, 
+                "second": 53, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 17
+            }, 
+            "key": "statemachine/transition", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "fmt_time": "2016-06-30T22:17:53.723836-07:00", 
+            "local_dt": {
+                "hour": 22, 
+                "month": 6, 
+                "second": 53, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 17
+            }, 
+            "ts": 1467350273.723836, 
+            "battery_status": 1, 
+            "battery_level_pct": 99.0
+        }, 
+        "_id": {
+            "$oid": "5775fd03fe930a83ace86fd9"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T22:17:53.723836-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467350273.723836, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 22, 
+                "month": 6, 
+                "second": 53, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 17
+            }, 
+            "key": "background/battery", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "curr_state": 3, 
+            "transition": 7, 
+            "local_dt": {
+                "hour": 22, 
+                "month": 6, 
+                "second": 39, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 47
+            }, 
+            "ts": 1467352059.033507, 
+            "fmt_time": "2016-06-30T22:47:39.033507-07:00"
+        }, 
+        "_id": {
+            "$oid": "57760e34fe930a83ace87405"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T22:47:39.033507-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467352059.033507, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 22, 
+                "month": 6, 
+                "second": 39, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 47
+            }, 
+            "key": "statemachine/transition", 
+            "read_ts": 1467356406.182811, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "fmt_time": "2016-06-30T22:47:39.058611-07:00", 
+            "local_dt": {
+                "hour": 22, 
+                "month": 6, 
+                "second": 39, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 47
+            }, 
+            "ts": 1467352059.058611, 
+            "battery_status": 1, 
+            "battery_level_pct": 99.0
+        }, 
+        "_id": {
+            "$oid": "57760e34fe930a83ace87406"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T22:47:39.058611-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467352059.058611, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 22, 
+                "month": 6, 
+                "second": 39, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 47
+            }, 
+            "key": "background/battery", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "curr_state": 3, 
+            "transition": 16, 
+            "local_dt": {
+                "hour": 23, 
+                "month": 6, 
+                "second": 14, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 0
+            }, 
+            "ts": 1467352814.867307, 
+            "fmt_time": "2016-06-30T23:00:14.867307-07:00"
+        }, 
+        "_id": {
+            "$oid": "57760e34fe930a83ace87407"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T23:00:14.867307-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467352814.867307, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 23, 
+                "month": 6, 
+                "second": 14, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 0
+            }, 
+            "key": "statemachine/transition", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "fmt_time": "2016-06-30T23:00:14.883803-07:00", 
+            "local_dt": {
+                "hour": 23, 
+                "month": 6, 
+                "second": 14, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 0
+            }, 
+            "ts": 1467352814.883803, 
+            "battery_status": 1, 
+            "battery_level_pct": 99.0
+        }, 
+        "_id": {
+            "$oid": "57760e34fe930a83ace87408"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T23:00:14.883803-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467352814.883803, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 23, 
+                "month": 6, 
+                "second": 14, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 0
+            }, 
+            "key": "background/battery", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "curr_state": 3, 
+            "transition": 7, 
+            "local_dt": {
+                "hour": 23, 
+                "month": 6, 
+                "second": 13, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 31
+            }, 
+            "ts": 1467354673.207615, 
+            "fmt_time": "2016-06-30T23:31:13.207615-07:00"
+        }, 
+        "_id": {
+            "$oid": "57760e34fe930a83ace87409"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T23:31:13.207615-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467354673.207615, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 23, 
+                "month": 6, 
+                "second": 13, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 31
+            }, 
+            "key": "statemachine/transition", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }, 
+    {
+        "data": {
+            "fmt_time": "2016-06-30T23:31:13.235542-07:00", 
+            "local_dt": {
+                "hour": 23, 
+                "month": 6, 
+                "second": 13, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 31
+            }, 
+            "ts": 1467354673.235542, 
+            "battery_status": 1, 
+            "battery_level_pct": 98.0
+        }, 
+        "_id": {
+            "$oid": "57760e34fe930a83ace8740a"
+        }, 
+        "user_id": {
+            "$uuid": "079e0f1ac4403d7cb0e7de160f748e35"
+        }, 
+        "metadata": {
+            "write_fmt_time": "2016-06-30T23:31:13.235542-07:00", 
+            "plugin": "none", 
+            "write_ts": 1467354673.235542, 
+            "time_zone": "America/Los_Angeles", 
+            "platform": "ios", 
+            "write_local_dt": {
+                "hour": 23, 
+                "month": 6, 
+                "second": 13, 
+                "weekday": 3, 
+                "year": 2016, 
+                "timezone": "America/Los_Angeles", 
+                "day": 30, 
+                "minute": 31
+            }, 
+            "key": "background/battery", 
+            "read_ts": 0, 
+            "type": "message"
+        }
+    }
+]
