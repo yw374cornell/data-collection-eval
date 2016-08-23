@@ -1,13 +1,13 @@
-experiment,start_time,end_time,start_ts,end_ts,label,notes,description
-standby ,2016-07-02T16:00:00-07:00,2016-07-08T00:00:00-07:00,1467500400,1467961200,"1hr,1hr,1hr,1hr","iphone4 reported no data, android3 drained faster",phone sitting stationary
-HAFS *iphone* + HAMS 30s *android*,2016-07-11T18:00:34.967853-07:00,2016-07-14T15:40:19.652000-07:00,1468285235,1468536020,"1hr,1hr,1hr,1hr",iphone 4 drained faster ,"high accuracy, fast sampling location tracking"
-HAFS location (stationary),2016-07-17T11:12:33.859000-07:00,2016-07-18T11:00:27.966900-07:00,1468782026,1468864828,"1hr,1hr,1hr,1hr",consistent ios & android,
-HAFS location (stationary),2016-07-20T08:00:07.669725-07:00,2016-07-21T07:00:34.099522-07:00,1469026808,1469109634,"1hr,1hr,1hr,1hr",consistent ios & android,
-HAFS location (stationary) *android only*,2016-07-21T11:11:55.444000-07:00,2016-07-22T07:18:25.989000-07:00,1469124715,1469197106,"1hr,1hr,1hr,1hr","android2 drained faster, android 3 start at 95%",
-HAFS location (stationary),2016-07-27T17:46:23.459000-07:00,2016-07-28T17:00:23.909602-07:00,1469666783,1469750424,"1hr,1hr,1hr,1hr","consistent ios, android bimodal ",
-MAFS lacation (moving) ,2016-07-29T11:00:04.500982-07:00,2016-07-29T21:00:23.752410-07:00,1469815205,1469851224,"1hr,1hr,1hr,1hr","iphone4 reported no data, android bimodal",travelled from berkeley to mountain view 
-video playback ,2016-07-29T22:39:43.046000-07:00,2016-07-30T05:00:19.731261-07:00,1469857183,1469880020,"1hr,1hr,1hr,1hr",iphone4 reported no data,"same freq, max brightness, airplane mode, location service on"
-video playback (diff freq),2016-07-30T13:03:01.030000-07:00,2016-07-30T18:40:30.291000-07:00,1469908981,1469932204,"1min,10min,30min,1hr",iphone4 reported no data,"diff freq (1min, 10min, 30min), max brightness, airplane mode, location service on"
-MAFS lacation (moving) *iphone only*,2016-08-01T08:00:14.770948-07:00,2016-08-01T09:45:01.017547-07:00,1470063615,1470069901,"1hr,1hr,1hr,1hr",no meaningful andorid data (too few data points),travelled from mountain view to berkeley
-video playback (diff freq) *iphone only* ,2016-08-04T22:00:19.038382-07:00,2016-08-05T03:20:03.251420-07:00,1470373219,1470392403,"1min,1hr,10min,30min",diff freq has negligible effect ,"diff freq (1min, 1hr, 10min, 30min), max brightness, airplane mode, location service off"
-HAFS location (stationary) *android only*,2016-08-04T23:12:09.561000-07:00,2016-08-05T16:04:44.289000-07:00,1470377530,1470438284,"1hr,1hr,1hr,1hr",android3 drained slower ,same freq
+index,experiment,start_time,end_time,start_ts,end_ts,label,notes,description
+0,standby ,2016-07-02T16:00:00-07:00,2016-07-08T00:00:00-07:00,1467500400,1467961200,"1hr,1hr,1hr,1hr","iphone4 reported no data, android3 drained faster",phone sitting stationary
+1,HAFS *iphone* + HAMS 30s *android*,2016-07-11T18:00:34.967853-07:00,2016-07-14T15:40:19.652000-07:00,1468285235,1468536020,"1hr,1hr,1hr,1hr",iphone 4 drained faster ,"high accuracy, fast sampling location tracking"
+2,HAFS location (stationary),2016-07-17T11:12:33.859000-07:00,2016-07-18T11:00:27.966900-07:00,1468782026,1468864828,"1hr,1hr,1hr,1hr",consistent ios & android,
+3,HAFS location (stationary),2016-07-20T08:00:07.669725-07:00,2016-07-21T07:00:34.099522-07:00,1469026808,1469109634,"1hr,1hr,1hr,1hr",consistent ios & android,
+4,HAFS location (stationary) *android only*,2016-07-21T11:11:55.444000-07:00,2016-07-22T07:18:25.989000-07:00,1469124715,1469197106,"1hr,1hr,1hr,1hr","android2 drained faster, android 3 start at 95%",
+5,HAFS location (stationary),2016-07-27T17:46:23.459000-07:00,2016-07-28T17:00:23.909602-07:00,1469666783,1469750424,"1hr,1hr,1hr,1hr","consistent ios, android bimodal ",
+6,MAFS lacation (moving) ,2016-07-29T11:00:04.500982-07:00,2016-07-29T21:00:23.752410-07:00,1469815205,1469851224,"1hr,1hr,1hr,1hr","iphone4 reported no data, android bimodal",travelled from berkeley to mountain view 
+7,video playback ,2016-07-29T22:39:43.046000-07:00,2016-07-30T05:00:19.731261-07:00,1469857183,1469880020,"1hr,1hr,1hr,1hr",iphone4 reported no data,"same freq, max brightness, airplane mode, location service on"
+8,video playback (diff freq),2016-07-30T13:03:01.030000-07:00,2016-07-30T18:40:30.291000-07:00,1469908981,1469932204,"1min,10min,30min,1hr",iphone4 reported no data,"diff freq (1min, 10min, 30min), max brightness, airplane mode, location service on"
+9,MAFS lacation (moving) *iphone only*,2016-08-01T08:00:14.770948-07:00,2016-08-01T09:45:01.017547-07:00,1470063615,1470069901,"1hr,1hr,1hr,1hr",no meaningful andorid data (too few data points),travelled from mountain view to berkeley
+10,video playback (diff freq) *iphone only* ,2016-08-04T22:00:19.038382-07:00,2016-08-05T03:20:03.251420-07:00,1470373219,1470392403,"1min,1hr,10min,30min",diff freq has negligible effect ,"diff freq (1min, 1hr, 10min, 30min), max brightness, airplane mode, location service off"
+11,HAFS location (stationary) *android only*,2016-08-04T23:12:09.561000-07:00,2016-08-05T16:04:44.289000-07:00,1470377530,1470438284,"1hr,1hr,1hr,1hr",android3 drained slower ,same freq
