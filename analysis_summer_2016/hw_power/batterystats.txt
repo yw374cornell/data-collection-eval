@@ -1,0 +1,111 @@
+Battery History:
+       -1h31m43s122ms 099 6d020104 status=discharging health=good plug=none temp=310 volt=3863 +phone_scanning +wifi +wifi_running +wifi_scan +wake_lock +sensor brightness=bright phone_state=out
+       -1h31m41s597ms 099 6d020104
+       -1h31m40s669ms 099 2d020104 -wake_lock
+       -1h31m26s713ms 099 2d020104
+       -1h31m23s322ms 099 6d020104 +wake_lock
+       -1h31m19s777ms 099 6c020104 -wifi_scan
+       -1h31m19s181ms 099 6c020104
+       -1h31m17s648ms 099 2c020104 -wake_lock
+       -1h30m49s835ms 097 6c020104 temp=300 volt=3673 +wake_lock
+       -1h30m49s632ms 097 6c020104
+       -1h30m48s904ms 097 6c020104
+       -1h30m46s808ms 097 2c020104 -wake_lock
+       -1h30m37s688ms 097 6c020104 +wake_lock
+       -1h30m34s836ms 097 6c020104
+       -1h30m33s209ms 097 6c020104
+       -1h30m32s413ms 097 2c020104 -wake_lock
+       -1h29m43s155ms 095 6c020104 temp=310 volt=3775 +wake_lock
+       -1h29m43s130ms 095 2c020104 -wake_lock
+       -1h28m43s064ms 093 2c020104
+       -1h27m39s428ms 091 2c020104
+       -1h26m49s398ms 090 2c020104 volt=3752
+       -1h25m59s359ms 089 2c020104 temp=320 volt=3728
+       -1h25m09s339ms 087 2c020104
+       -1h24m19s316ms 086 2c020104
+       -1h23m29s291ms 085 2c020104
+       -1h22m39s267ms 083 2c020104 volt=3698
+       -1h21m48s576ms 082 2c020104 temp=330
+       -1h20m58s546ms 081 2c020104 volt=3726
+       -1h20m08s514ms 080 2c020104
+       -1h19m15s118ms 078 2c020104
+       -1h18m25s094ms 077 2c020104
+       -1h17m35s072ms 076 2c020104 volt=3678
+       -1h16m45s050ms 075 2c020104
+       -1h15m55s025ms 074 2c020104 volt=3703
+       -1h15m05s002ms 072 2c020104
+       -1h14m14s969ms 071 2c020104
+       -1h13m21s037ms 070 6c020104 +wake_lock
+       -1h13m21s009ms 070 2c020104 -wake_lock
+       -1h12m31s015ms 069 2c020104
+       -1h11m40s976ms 068 2c020104
+       -1h10m50s938ms 067 2c020104 temp=340 volt=3681
+       -1h10m00s912ms 066 2c020104
+       -1h09m10s888ms 065 2c020104 volt=3637
+       -1h08m02s450ms 063 6c020104 volt=3661 +wake_lock
+       -1h08m02s406ms 063 2c020104 -wake_lock
+       -1h07m12s425ms 062 2c020104 volt=3636
+       -1h06m11s401ms 061 2c020104 volt=3668
+       -1h05m21s379ms 060 2c020104
+       -1h04m31s357ms 059 2c020104
+       -1h03m41s331ms 058 2c020104 volt=3638
+       -1h02m47s017ms 057 2c020104
+       -1h01m56s153ms 056 2c020104
+       -1h01m40s394ms 056 2f020104 +wifi_full_lock +wifi_scan
+       -1h01m38s935ms 056 2c020104 -wifi_full_lock -wifi_scan
+       -1h01m06s126ms 055 2c020104
+         -59m26s024ms 054 2c020104
+         -58m36s002ms 053 2c020104
+         -57m37s127ms 052 2c020104
+         -56m47s107ms 051 2c020104
+         -55m56s153ms 050 2c020104
+         -55m06s128ms 049 2c020104
+         -54m16s097ms 048 2c020104 volt=3616
+         -53m26s070ms 047 2c020104
+         -51m46s022ms 046 2c020104 volt=3571
+         -50m55s993ms 045 2c020104 volt=3608
+         -50m05s967ms 044 2c020104
+         -49m15s914ms 043 2c020104
+         -48m25s894ms 042 2c020104
+         -47m35s861ms 041 2c020104
+         -46m45s838ms 040 2c020104 volt=3586
+         -45m55s816ms 039 2c020104
+         -45m05s779ms 038 2c020104 volt=3546
+         -44m15s750ms 037 2c020104 volt=3578
+         -43m11s786ms 036 2c020104
+         -42m21s756ms 035 2c020104
+         -40m32s300ms 033 2c020104 volt=3525
+         -39m32s291ms 032 2c020104 volt=3555
+         -38m42s272ms 031 2c020104
+         -37m52s248ms 030 2c020104
+         -37m02s227ms 029 2c020104
+         -35m59s106ms 027 2c020104
+         -35m09s088ms 026 2c020104
+         -34m19s064ms 025 2c020104
+         -33m29s042ms 024 2c020104
+         -32m39s018ms 023 2c020104 volt=3531
+         -31m48s992ms 022 2c020104
+         -31m34s954ms 022 2f020104 +wifi_full_lock +wifi_scan
+         -31m33s499ms 022 2c020104 -wifi_full_lock -wifi_scan
+         -30m48s321ms 021 2c020104
+         -29m58s297ms 019 2c020104
+         -29m08s281ms 018 2c020104
+         -28m18s256ms 017 2c020104 temp=350
+         -27m28s230ms 016 2c020104 temp=340 volt=3503
+         -26m38s211ms 015 2c020104
+         -25m48s184ms 014 2c020104
+         -24m58s156ms 013 2c020104
+         -24m08s134ms 012 2c020104 volt=3476
+         -23m18s114ms 011 2c020104 volt=3518
+         -22m12s159ms 009 6c020104 temp=350 +wake_lock
+         -22m12s129ms 009 2c020104 -wake_lock
+         -20m32s118ms 008 2c020104
+         -19m39s466ms 007 2c020104
+         -18m49s447ms 006 2c020104
+         -17m59s419ms 005 2c020104 temp=340 volt=3450
+         -16m19s380ms 004 2c020104 volt=3478
+         -15m17s703ms 003 2c020104 temp=350
+         -14m21s347ms 002 2c020104
+         -13m31s327ms 001 2c020104
+         -11m50s681ms 000 6c020104 volt=3443 +wake_lock
+         -11m50s325ms 000 2c020104 -wake_lock
