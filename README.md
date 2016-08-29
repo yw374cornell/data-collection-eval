@@ -29,7 +29,7 @@ that this will eventualy turn into the "benchmark" that others can use as well.
 3. Start the local server in your cloned repo of [e-mission-server](https://github.com/e-mission/e-mission-server) 
 > $ ./e-mission-py.bash emission/net/api/cfc_webapp.py
 
-4. Find `experiment_analysis.ipynb` in the `analysis_summer_2016` directory, open it in Jupyter notebook
+4. Find `experiment_analysis.ipynb` in directory `analysis_summer_2016`, open it in Jupyter notebook
 
 5. Pull data from the server and load it to your local server (note: you only need to do this once for each experiment, unless you have erased your entire database)
 
